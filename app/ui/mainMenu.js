@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import { MdOutlineMenu, MdOutlineClose } from 'react-icons/md';
 
 function MainMenu() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  //const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
