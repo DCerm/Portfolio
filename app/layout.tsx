@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { rosario, syne } from './ui/fonts';
+import { syne } from './ui/fonts';
 import "./globals.css";
 import Script from 'next/script';
 //import Gtag from './utils/gtag';

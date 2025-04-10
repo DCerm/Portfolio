@@ -1,9 +1,9 @@
 'use client';
-import React, { JSX, useState } from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { H2, H4 } from './headings';
-import { MdOutlineArrowOutward, MdOutlineArrowCircleLeft, MdOutlineArrowCircleRight, MdOutlineStar } from 'react-icons/md';
+import { MdOutlineArrowOutward } from 'react-icons/md';
 import { PlusIcon } from '@heroicons/react/24/outline';
 
 

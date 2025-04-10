@@ -1,6 +1,6 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 import Image from 'next/image';
-import Menu from './ui/mainMenu';
+//import Menu from './ui/mainMenu';
 import Footer from './ui/footer';
 import SmokeEffect from './ui/smoke';
 //import { Properties, Blog } from './utils/functions';
@@ -8,7 +8,7 @@ import SmokeEffect from './ui/smoke';
 //import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
 //import { Properties } from './utils/functions';
-import { MdOutlineArrowOutward, MdOutlineCode,  MdOutlineLaptopMac, MdOutlineStopCircle, MdOutlineSubdirectoryArrowRight } from 'react-icons/md';
+import { MdOutlineCode,  MdOutlineLaptopMac, MdOutlineStopCircle, MdOutlineSubdirectoryArrowRight } from 'react-icons/md';
 
 
 export default function Home() {
@@ -250,9 +250,9 @@ export default function Home() {
 
                 <div className="mt-4 lg:flex lg:gap-8">
                     <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg lg:w-1/3 p-8 flex flex-col justify-between">
-                        <p className="text-lg">"I&apos;ve collaborated with Sam on several projects and hold him in high esteem. He&apos;s quick to respond, dependable, resourceful, and pragmatic.
+                        <p className="text-lg">&quot;I&apos;ve collaborated with Sam on several projects and hold him in high esteem. He&apos;s quick to respond, dependable, resourceful, and pragmatic.
                             He has been wonderful to work with as I navigate the rough seas of growing a business. 
-                            I have complete confidence in utilizing his services for any upcoming projects."
+                            I have complete confidence in utilizing his services for any upcoming projects.&quot;
                         </p>
                         <div className="flex gap-4 items-center mt-4">
                             <p className="text-xl font-semibold text-white">Harry Fiorentinos</p>

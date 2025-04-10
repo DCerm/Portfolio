@@ -1,10 +1,10 @@
 'use client';
 
-import Link from 'next/link';
+//import Link from 'next/link';
 import NavLink from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import styles from './mainMenu.module.css';
+//import styles from './mainMenu.module.css';
 import { MdOutlineMenu, MdOutlineClose } from 'react-icons/md';
 
 function MainMenu() {
