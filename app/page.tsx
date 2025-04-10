@@ -27,7 +27,7 @@ export default function Home() {
                 <h1 className='text-lg mt-4 text-gray-400'>I am Sam Olasoji 👋🏻 <br/>
                     a Frontend Developer.
                 </h1>
-                <h2 className="text-30px lg:text-3xl uppercas my-4 leading-none lg:my-6">I create <span className='text-[#0af]'>interactive</span> interfaces people love.</h2>
+                <h2 className="text-30px md:text-[40px] lg:text-3xl uppercas my-4 leading-none lg:my-6">I create <span className='text-[#0af]'>interactive</span> interfaces people love.</h2>
                 <button className=" px-6 mt-6 py-3 bg-white text-black rounded-xl hover:bg-gray-200 transition">
                     Explore My Works
                 </button>
@@ -35,7 +35,7 @@ export default function Home() {
             </section>
 
 
-            <div className="py-20" />
+            <div className="py-20 hidden lg:block" />
 
 
             <div className=" w-full canvas-wrapper">
@@ -113,15 +113,15 @@ export default function Home() {
             <div className="" />
 
             <section className="text-gray-400 flex flex-col items-center bg- backdrop-blur-sm border-none opacity-500 ">
-                <div className="flex gap-2 rounded-full bg-dark px-2 pb-0.5">
+                <div className="flex gap-2 rounded-full bg-dark px-3 lg:px-2 pb-0.5">
                     <MdOutlineStopCircle className=' mt-2' />
                     <p className="text-lg">About Me</p>
                 </div>
 
-                <p className='lg:text-2xl pt-4'><span className="text-white">Sam Olasoji,</span> Your Developer</p>
-                <p className="text-lg">Brief description of my experience and journey.</p>
+                <p className='text-25px md:text-30px lg:text-2xl pt-4'><span className="text-white">Sam Olasoji,</span> Your Developer</p>
+                <p className="text-lg text-center">Brief description of my experience and journey.</p>
 
-                <div className="lg:flex mt-12 lg:px-[10%] lg:gap-4">
+                <div className="flex flex-col lg:flex-row mt-12 lg:px-[10%] gap-2 lg:gap-4">
                     <div className="lg:w-2/5 p-2 bg-dark rounded-lg">
                         <Image src="/sam.jpeg" alt="Sam Olasoji, frontend developer"
                             height={1680}
@@ -131,16 +131,16 @@ export default function Home() {
                     </div>
 
                     <div className="lg:w-3/5 p-4 lg:p-8 bg-dark text-white rounded-lg">
-                        <p className="text-lg pb-4 border-b border-gray-500">I am a frontend developer with a passion for creating interactive and user-friendly interfaces. 
-                            I am proficient in modern frontend technologies and frameworks, and I am always eager to learn.
+                        <p className="text-lg pb-4 border-b border-gray-500">Frontend developer with a passion for creating interactive and user-friendly interfaces. 
+                            Proficient in modern frontend technologies and frameworks, and I am always eager to learn.
                         </p>
 
-                        <div className="grid lg:grid-cols-3 gap-4 mt-4">
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
                             <div className='flex gap-2 bg-[#222] rounded-lg items-center p-2'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/next.png" height={225} width={225} alt="" className='w-[25px] ' />
                                 </div>                                
-                                <p className='text-lg'>Next.js</p>
+                                <p className='text-md lg:text-lg'>Next.js</p>
                             </div>
 
                             <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
@@ -148,7 +148,7 @@ export default function Home() {
                                     <Image src="/icons/react.svg" height={225} width={225} alt=""  className='w-[25px] h-auto' />
                                 </div>
                                 
-                                <p className='text-lg'>React.js</p>
+                                <p className='text-md lg:text-lg'>React.js</p>
                             </div>
 
                             <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
@@ -156,7 +156,7 @@ export default function Home() {
                                     <Image src="/icons/tailwind.png" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
                                 
-                                <p className='text-lg'>Tailwind CSS</p>
+                                <p className='text-md lg:text-lg'>Tailwind CSS</p>
                             </div>
 
                             <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
@@ -164,7 +164,7 @@ export default function Home() {
                                     <Image src="/icons/shadcn.png" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
                                 
-                                <p className='text-lg'>Shadcn UI</p>
+                                <p className='text-md lg:text-lg'>Shadcn UI</p>
                             </div>
 
                             <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
@@ -172,7 +172,7 @@ export default function Home() {
                                     <Image src="/icons/html.svg" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
                                 
-                                <p className='text-lg'>HTML / CSS</p>
+                                <p className='text-md lg:text-lg'>HTML / CSS</p>
                             </div>
 
                             <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
@@ -180,7 +180,7 @@ export default function Home() {
                                     <Image src="/icons/github.png" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
                                 
-                                <p className='text-lg'>Github</p>
+                                <p className='text-md lg:text-lg'>Github</p>
                             </div>
                         </div>
                     </div>
@@ -193,9 +193,9 @@ export default function Home() {
             <section className=" bg-cover">
                 <div className="flex gap-2 items-center ">
                     <MdOutlineLaptopMac className='text-xl'/>
-                    <p className="text-lg uppercase">creations</p>
+                    <p className="text-md lg:text-lg uppercase">creations</p>
                 </div>
-                <h3 className="lg:text-2xl text-xl">My Selected Works</h3>
+                <h3 className="text-30px md:text-30px lg:text-2xl">My Selected Works</h3>
 
                 <div className="grid lg:grid-cols-2 gap-4 mt-8">
                     <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="" src="/mockup.jpeg" />
@@ -212,9 +212,9 @@ export default function Home() {
             <section className="">
                 <div className="flex gap-2 items-center ">
                     <MdOutlineCode className='text-xl'/>
-                    <p className="text-lg uppercase">development journey</p>
+                    <p className="text-sm lg:text-lg uppercase">development journey</p>
                 </div>
-                <h3 className="lg:text-2xl text-xl">My Experience</h3>
+                <h3 className="lg:text-2xl text-30px">My Experience</h3>
 
                 <Separator />
 

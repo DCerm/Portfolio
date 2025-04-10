@@ -148,14 +148,14 @@ function Experience({ logo, title, company, date, location } : { logo: string, t
 
 function Project({ name, desc, src, url } : { name: string, desc: string, src: string, url: string }) {
     return (
-        <div className="bg-dark rounded-md card p-8 pb-0 ">
+        <div className="bg-dark rounded-md card p-4 lg:p-8 pb-0 ">
             <div className="flex gap-2 items-center justify-between">
                 <div>
-                    <p className="text-30px font-semibold">{name}</p>
-                    <p className="text-lg mt-1">{desc}</p>
+                    <p className="text-xl lg:text-30px font-semibold">{name}</p>
+                    <p className="text-md md:text-lg mt-1">{desc}</p>
                 </div>
 
-                <Link href={url} className="p-2 rounded-full border border-gray-600 hover:border-white text-gray-400 hover:text-white"><MdOutlineArrowOutward className='lg:text-25px rh45 ' /></Link>
+                <Link href={url} className="p-2 rounded-full border border-gray-600 hover:border-white text-gray-400 hover:text-white"><MdOutlineArrowOutward className='text-25px rh45 ' /></Link>
             </div>
 
             <div className='overflow-hidden overflow-y-hiddden'><Image src={src} alt="" height={1680} width={2520} className="w-full mt-6 h-auto rounded-t-lg overflow-hidden" /></div>
