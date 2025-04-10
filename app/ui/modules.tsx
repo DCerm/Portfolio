@@ -110,7 +110,7 @@ function Services () {
 }
 
 
-function Testimony({ review, name, title }) : { review: string, name: string, title: string } {
+function Testimony({ review, name, title } : { review: string, name: string, title: string }) {
     return (
         
         <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg lg:w-1/3 p-8 flex flex-col justify-between">
