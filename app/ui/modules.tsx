@@ -135,7 +135,7 @@ function Experience({ logo, title, company, date, location } : { logo: string, t
                 <p className="text-sm md:text-md lg:text-lg">{company}</p>
             </div>
 
-            <div className="flex lg:flex-col gap-1 lg:gap-2 items-end">
+            <div className="flex lg:flex-col gap-6 lg:gap-2 items-end">
                 <p className='text-sm md:text-md lg:text-lg'>{date}</p>
                 <p className='text-sm md:text-md lg:text-lg'>{location}</p>
             </div>
