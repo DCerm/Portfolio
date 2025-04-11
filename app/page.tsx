@@ -105,18 +105,18 @@ export default function Home() {
 
                     <div className="lg:w-3/5 p-4 lg:p-8 bg-dark text-white rounded-lg">
                         <p className="text-lg pb-4 border-b border-gray-500">Frontend developer with a passion for creating interactive and user-friendly interfaces. 
-                            Proficient in modern frontend technologies and frameworks, and I am always eager to learn.
+                            Proficient in modern frontend technologies and frameworks. Worked as part of a team and independently as a freelancer.
                         </p>
 
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
-                            <div className='flex gap-2 bg-[#222] rounded-lg items-center p-2'>
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg items-center p-2'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/next.png" height={225} width={225} alt="" className='w-[25px] ' />
                                 </div>                                
                                 <p className='text-md lg:text-lg'>Next.js</p>
                             </div>
 
-                            <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/react.svg" height={225} width={225} alt=""  className='w-[25px] h-auto' />
                                 </div>
@@ -124,7 +124,7 @@ export default function Home() {
                                 <p className='text-md lg:text-lg'>React.js</p>
                             </div>
 
-                            <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/tailwind.png" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
@@ -132,7 +132,7 @@ export default function Home() {
                                 <p className='text-md lg:text-lg'>Tailwind CSS</p>
                             </div>
 
-                            <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/shadcn.png" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
@@ -140,7 +140,7 @@ export default function Home() {
                                 <p className='text-md lg:text-lg'>Shadcn UI</p>
                             </div>
 
-                            <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/html.svg" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
@@ -148,7 +148,7 @@ export default function Home() {
                                 <p className='text-md lg:text-lg'>HTML / CSS</p>
                             </div>
 
-                            <div className='flex gap-2 bg-[#222] rounded-lg p-2 items-center'>
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/github.png" height={225} width={225} alt=""  className='w-[25px] ' />
                                 </div>
