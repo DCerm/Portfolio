@@ -113,10 +113,10 @@ function Services () {
 function Testimony({ review, name, title } : { review: string, name: string, title: string }) {
     return (
         
-        <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg lg:w-1/3 p-8 flex flex-col justify-between">
+        <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg lg:w-1/3 p-4 lg:p-8 flex flex-col justify-between">
             <p className="text-lg">{review}</p>
             <div className="flex gap-4 items-center mt-4">
-                <p className="text-xl font-semibold text-white">{name}</p>
+                <p className="text-lg lg:text-xl font-semibold text-white">{name}</p>
                 <p className="text-sm text-gray-400"> - &nbsp; {title}</p>
             </div>
         </div>
@@ -127,17 +127,17 @@ function Testimony({ review, name, title } : { review: string, name: string, tit
 function Experience({ logo, title, company, date, location } : { logo: string, title: string, company: string, date: string, location: string }) {
     return (
         <>
-        <div className='flex justify-between items-center'>
-            <div className="flex items-center gap-4">
-                <Image src={logo} alt="" height={50} width={50} className="p-2 shadow-sm shadow-gray-500 rounded-full mr-4" />
-                <p className="text-25px font-semibold">{title}</p>
-                <p className="text-2xl font-semibold">/</p>
-                <p className="text-lg">{company}</p>
+        <div className='flex flex-col gap-2 lg:flex-row justify-between lg:items-center'>
+            <div className="flex items-center gap-2 lg:gap-4">
+                <Image src={logo} alt="" height={50} width={50} className="p-1 md:p-2 shadow-sm shadow-gray-500 rounded-full lg:mr-4" />
+                <p className="text-md md:text-xl lg:text-25px font-semibold">{title}</p>
+                <p className="text-xl lg:text-2xl font-semibold">/</p>
+                <p className="text-sm md:text-md lg:text-lg">{company}</p>
             </div>
 
-            <div className="flex flex-col gap-2 items-end">
-                <p className='text-lg'>{date}</p>
-                <p className='text-lg'>{location}</p>
+            <div className="flex lg:flex-col gap-1 lg:gap-2 items-end">
+                <p className='text-sm md:text-md lg:text-lg'>{date}</p>
+                <p className='text-sm md:text-md lg:text-lg'>{location}</p>
             </div>
         </div>
 

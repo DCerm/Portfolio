@@ -8,7 +8,7 @@ import SmokeEffect from './ui/smoke';
 //import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
 //import { Properties } from './utils/functions';
-import { MdOutlineCode,  MdOutlineLaptopMac, MdOutlineStopCircle, MdOutlineSubdirectoryArrowRight } from 'react-icons/md';
+import { MdOutlineChatBubble, MdOutlineCode,  MdOutlineLaptopMac, MdOutlineSubdirectoryArrowRight, MdOutlineVerifiedUser } from 'react-icons/md';
 
 
 export default function Home() {
@@ -78,50 +78,23 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-2 lg:grid-cols-3 mt-12 borde rounded-xl  hidde">
-                        <Image src="/mockup5.png"
-                            height={1480}
-                            width={2468}
-                            alt=""
-                            className=' h-auto lg:hidden'
-                        />
-                        <Image src="/mockup.jpeg"
-                            height={3000}
-                            width={4000}
-                            alt=""
-                            className=' h-auto '
-                        />
-                        <Image src="/mockup2.jpeg"
-                            height={2400}
-                            width={3200}
-                            alt=""
-                            className=' '
-                        />
-                        <Image src="/mockup3.jpeg"
-                            height={2400}
-                            width={3200}
-                            alt=""
-                            className=' h-auto'
-                        />
-                        
-                    </div>
+                
                    
                 </section>
 
             </div>
 
-            <div className="" />
 
-            <section className="text-gray-400 flex flex-col items-center bg- backdrop-blur-sm border-none opacity-500 ">
-                <div className="flex gap-2 rounded-full bg-dark px-3 lg:px-2 pb-0.5">
-                    <MdOutlineStopCircle className=' mt-2' />
-                    <p className="text-lg">About Me</p>
+            <section className="text-white flex flex-col items-cente bg- backdrop-blur-sm border-none opacity-500 lg:w-5/6">
+                <div className="flex gap-2 items-center">
+                    <MdOutlineVerifiedUser className='text-xl' />
+                    <p className="text-sm lg:text-lg uppercase">About Me</p>
                 </div>
 
-                <p className='text-25px md:text-30px lg:text-2xl pt-4'><span className="text-white">Sam Olasoji,</span> Your Developer</p>
-                <p className="text-lg text-center">Brief description of my experience and journey.</p>
+                <p className='text-25px md:text-30px lg:text-2xl'>Sam Olasoji, <span className="text-gray-400">Your Developer</span> </p>
+                <p className="text-lg">Brief description of my experience and journey.</p>
 
-                <div className="flex flex-col lg:flex-row mt-12 lg:px-[10%] gap-2 lg:gap-4">
+                <div className="flex flex-col lg:flex-row mt-12  gap-2 lg:gap-4">
                     <div className="lg:w-2/5 p-2 bg-dark rounded-lg">
                         <Image src="/sam.jpeg" alt="Sam Olasoji, frontend developer"
                             height={1680}
@@ -193,14 +166,14 @@ export default function Home() {
             <section className=" bg-cover">
                 <div className="flex gap-2 items-center ">
                     <MdOutlineLaptopMac className='text-xl'/>
-                    <p className="text-md lg:text-lg uppercase">creations</p>
+                    <p className="text-sm lg:text-lg uppercase">creations</p>
                 </div>
-                <h3 className="text-30px md:text-30px lg:text-2xl">My Selected Works</h3>
+                <h3 className="text-30px lg:text-2xl">My Selected Works</h3>
 
                 <div className="grid lg:grid-cols-2 gap-4 mt-8">
                     <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="" src="/mockup.jpeg" />
                     <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="" src="/mockup2.jpeg" />
-                    <Project name="Portfolio" desc="A portfolio portfolio website" url="" src="/mockup3.jpeg" />
+                    <Project name="Portfolio" desc="A portfolio website" url="" src="/mockup3.jpeg" />
                     <Project name="Benison" desc="Home health web app with analytics dashboard" url="" src="/mockup4.png" />
                 </div>
 
@@ -218,22 +191,7 @@ export default function Home() {
 
                 <Separator />
 
-                <div className='flex justify-between items-center'>
-                    <div className="flex items-center gap-4">
-                        <Image src="/Sam-Olasoji.png" alt="" height={50} width={50} className="p-2 shadow-sm shadow-gray-500 rounded-full mr-4" />
-                        <p className="text-25px font-semibold">Frontend Developer</p>
-                        <p className="text-2xl font-semibold">/</p>
-                        <p className="text-lg">BITe Agency</p>
-                    </div>
-
-                    <div className="flex flex-col gap-2 items-end">
-                        <p className='text-lg'>February 2024 - Present</p>
-                        <p className='text-lg'>Remote</p>
-                    </div>
-                </div>
-
-                <Separator />
-
+                <Experience logo="/Sam-Olasoji.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
                 <Experience logo="/Sam-Olasoji.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
                 <Experience logo="/Sam-Olasoji.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
                 <Experience logo="/Sam-Olasoji.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />
@@ -243,19 +201,19 @@ export default function Home() {
 
             <section className="">
                 <div className="flex gap-2 items-center ">
-                    <MdOutlineCode className='text-xl'/>
-                    <p className="text-lg uppercase">Testimonials</p>
+                    <MdOutlineChatBubble className='text-xl'/>
+                    <p className="text-sm lg:text-lg uppercase">Testimonials</p>
                 </div>
                 <h3 className="lg:text-2xl text-xl">Clients Review</h3>
 
-                <div className="mt-4 lg:flex lg:gap-8">
-                    <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg lg:w-1/3 p-8 flex flex-col justify-between">
+                <div className="mt-4 flex flex-col lg:flex-row gap-2 lg:gap-8">
+                    <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg lg:w-1/3 p-4 lg:p-8 flex flex-col justify-between">
                         <p className="text-lg">&quot;I&apos;ve collaborated with Sam on several projects and hold him in high esteem. He&apos;s quick to respond, dependable, resourceful, and pragmatic.
                             He has been wonderful to work with as I navigate the rough seas of growing a business. 
                             I have complete confidence in utilizing his services for any upcoming projects.&quot;
                         </p>
                         <div className="flex gap-4 items-center mt-4">
-                            <p className="text-xl font-semibold text-white">Harry Fiorentinos</p>
+                            <p className="text-lg lg:text-xl font-semibold text-white">Harry Fiorentinos</p>
                             <p className="text-sm text-gray-400"> - &nbsp; CEO, Raven Gold LLC</p>
                         </div>
                     </div>
