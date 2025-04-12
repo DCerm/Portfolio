@@ -20,8 +20,8 @@ export default function Home() {
                         <div className="text-gray-400 mb-8">
                             <p className="text-lg mt-4">Frontend developer that enjoys creating interactive, user-centric interfaces. </p>
                             <p className='text-lg mt-4'>My development journey started in 2020 with basic HTML, CSS and JavaScript. Later that year, I got introduced to WordPress and I loved the ability to create functional interfaces with drag and drop builders without having to bother much about how things worked under the hood. </p>
-                            <p className="text-md lg:text-lg mt-4">As time went on, it wasn't enough. I felt my creativity was constrained by the limitations of the system I was using, and I desired to give my customers better designs and performance. I picked up an internship in frontend development and thus it began.</p>
-                            <p className="text-lg mt-4">I believe interactive, user centric interfaces are pivotal in getting the end-user's attention and transferring that attention to the product or service offering. </p>
+                            <p className="text-md lg:text-lg mt-4">As time went on, it wasn&apos;t enough. I felt my creativity was constrained by the limitations of the system I was using, and I desired to give my customers better designs and performance. I picked up an internship in frontend development and thus it began.</p>
+                            <p className="text-lg mt-4">I believe interactive, user centric interfaces are pivotal in getting the end-user&apos;s attention and transferring that attention to the product or service offering. </p>
                         </div>
 
                         <Button url="mailto:osolasoji@gmail.com" text="osolasoji@gmail.com" />
