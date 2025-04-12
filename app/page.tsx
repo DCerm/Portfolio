@@ -3,11 +3,9 @@ import Image from 'next/image';
 //import Menu from './ui/mainMenu';
 import Footer from './ui/footer';
 import SmokeEffect from './ui/smoke';
-//import { Properties, Blog } from './utils/functions';
 //import { Button } from './ui/buttons';
 //import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
-//import { Properties } from './utils/functions';
 import { MdOutlineChatBubble, MdOutlineCode,  MdOutlineLaptopMac, MdOutlineSubdirectoryArrowRight, MdOutlineVerifiedUser } from 'react-icons/md';
 
 
@@ -40,47 +38,6 @@ export default function Home() {
 
             <div className=" w-full canvas-wrapper">
                 <SmokeEffect />
-                
-                <section className="inset-0 z-10 text-white hidden">
-                    <div className="flex flex-col lg:flex-row justify-between items-start hidde">
-                        <div className="lg:w-1/2">
-                            <Image 
-                                src="/Sam-Olasoji.png"
-                                alt="Sam Olasoji"
-                                className="w-[83px] h-[72px] object-cover rounded-full"
-                                width="836"
-                                height="720"
-                            />
-                            <h1 className='text-lg mt-4 text-gray-400'>I am Sam Olasoji 👋🏻 <br/>
-                                a Frontend Developer.
-                            </h1>
-                            <h2 className="text-25px lg:text-2xl uppercas my-4 leading-none lg:my-6">I create <span className='text-[#0af]'>interactive</span> interfaces people love.</h2>
-                            <button className=" px-6 py-3 bg-white text-black rounded-xl hover:bg-gray-200 transition">
-                                Explore My Works
-                            </button>
-                        </div>
-
-                        <div className="lg:w-1/5 hidden lg:block">
-                            <div className="p-4 rounded-md bg-[#c5e4f6]">
-                            <Image src="/resume.png"
-                                width={836}
-                                height={720}
-                                alt=""
-                                className='w-full h-auto'
-                            />
-                            <div className="border-t p-2 bg-[#10294b]">
-                                <a href="mailto:osolasoji@gmail.com">
-                                    <p className='text-gray-400 text-lg'>osolasoji@gmail.com</p>
-                                    <p className='text-gray-200 flex gap-1 hover:gap-3 transition-ease text-lg hover:text-white'>craft an email <MdOutlineSubdirectoryArrowRight className='mt-1.5' /></p>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-
-                
-                   
-                </section>
 
             </div>
 
@@ -191,9 +148,9 @@ export default function Home() {
 
                 <Separator />
 
-                <Experience logo="/Sam-Olasoji.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
-                <Experience logo="/Sam-Olasoji.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
-                <Experience logo="/Sam-Olasoji.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
+                <Experience logo="/bite.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
+                <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
+                <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
                 <Experience logo="/Sam-Olasoji.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />
 
             </section>

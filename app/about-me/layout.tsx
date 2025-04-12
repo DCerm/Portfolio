@@ -16,10 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className=' text-black antialiased'
+        className='bg-dark text-white antialiased'
       >
 
-        <Menu />
 
         {children}
 
