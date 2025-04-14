@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import { FooterForm } from "./forms";
-import { FaInstagram, FaFacebook, FaEnvelope, FaYoutube } from 'react-icons/fa';
+//import Image from 'next/image';
+//import { FooterForm } from "./forms";
+import { FaEnvelope } from 'react-icons/fa';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { MdOutlineArrowOutward } from 'react-icons/md';
-import Separator from './separator';
+import { Separator } from './modules';
 
 
 function Footer() {

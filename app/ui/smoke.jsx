@@ -1,4 +1,3 @@
-// components/SmokeEffect.js
 'use client';
 
 import * as THREE from 'three';

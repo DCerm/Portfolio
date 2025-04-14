@@ -1,6 +1,5 @@
 
 import Image from 'next/image';
-import Stars from '../ui/stars';
 import { Button } from '../ui/buttons';
 import { H2, H4 } from '../ui/headings';
 import { Experience, Separator } from '../ui/modules';
@@ -10,10 +9,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="h-full w-full fixed z-[-1] top-0 left-0">
-                <Stars />
-            </div>
-            <section className=' pt-5 lg:pt-[100px]'>
+            <section className='bg-dark pt-5 lg:pt-[100px]'>
                 <div className='flex flex-col-reverse lg:flex-row gap-12 lg:gap-24 '>
                     <div className='lg:w-3/5 '>
                         <div className="flex gap-2 items-center">
@@ -22,7 +18,7 @@ export default function Home() {
                         </div>
                         <h3 className="text-30px lg:text-2xl">About Me</h3>
 
-                        <div className=" mb-8">
+                        <div className="text-gray-400 mb-8">
                             <p className="text-lg mt-4">Frontend developer that enjoys creating interactive, user-centric interfaces. </p>
                             <p className='text-lg mt-4'>My development journey started in 2020 with basic HTML, CSS and JavaScript. Later that year, I got introduced to WordPress and I loved the ability to create functional interfaces with drag and drop builders without having to bother much about how things worked under the hood. </p>
                             <p className="text-md lg:text-lg mt-4">As time went on, it wasn&apos;t enough. I felt my creativity was constrained by the limitations of the system I was using, and I desired to give my customers better designs and performance. I picked up an internship in frontend development and thus it began.</p>
@@ -80,10 +76,6 @@ export default function Home() {
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
                 <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
                 <Experience logo="/Sam-Olasoji.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />
-
-                <div className="py-2 lg:py-4" />
-
-                <Button url="/experience" text="View All Experience" />
 
             </section>            
             

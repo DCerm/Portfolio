@@ -127,7 +127,8 @@ function Testimony({ review, name, title } : { review: string, name: string, tit
 function Experience({ logo, title, company, date, location } : { logo: string, title: string, company: string, date: string, location: string }) {
     return (
         <>
-        <div className='flex flex-col gap-2 lg:flex-row justify-between lg:items-center'>
+        <div className='hidden lg:flex gap-2 lg:flex-row justify-between lg:items-center'>
+            
             <div className="flex items-center gap-2 lg:gap-4">
                 <Image src={logo} alt="" height={50} width={50} className="p-1 md:p-2 shadow-sm shadow-gray-500 rounded-full lg:mr-4" />
                 <p className="text-md md:text-xl lg:text-25px font-semibold">{title}</p>
@@ -138,6 +139,24 @@ function Experience({ logo, title, company, date, location } : { logo: string, t
             <div className="flex lg:flex-col gap-6 lg:gap-2 items-end">
                 <p className='text-sm md:text-md lg:text-lg'>{date}</p>
                 <p className='text-sm md:text-md lg:text-lg'>{location}</p>
+            </div>
+        </div>
+
+        <div className="flex gap-4 items-center lg:hidden">
+            <Image src={logo} alt="" height={40} width={40} className="p-1 md:p-2 shadow-sm shadow-gray-500 rounded-full lg:mr-4 h-[40px] md:h-[50px]" />
+
+            <div className="">
+                <div className="flex items-center gap-2 lg:gap-4">
+                    <p className="text-md md:text-xl lg:text-25px font-semibold">{title}</p>
+                    <p className="text-xl lg:text-2xl font-semibold">/</p>
+                    <p className="text-sm md:text-md lg:text-lg hidden md:block">{company}</p>
+                </div>
+                <p className="text-sm md:text-md lg:text-lg md:hidden">{company}</p>
+
+                <div className="flex lg:flex-col gap-2 lg:gap-2 items-end">
+                    <p className='text-sm md:text-md lg:text-lg'>{date}</p>
+                    <p className='text-sm md:text-md lg:text-lg'>- &nbsp; ({location})</p>
+                </div>
             </div>
         </div>
 
