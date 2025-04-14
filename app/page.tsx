@@ -6,7 +6,7 @@ import SmokeEffect from './ui/smoke';
 //import { Button } from './ui/buttons';
 //import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
-import { MdOutlineChatBubble, MdOutlineCode,  MdOutlineLaptopMac, MdOutlineSubdirectoryArrowRight, MdOutlineVerifiedUser } from 'react-icons/md';
+import { MdOutlineChatBubble, MdOutlineCode,  MdOutlineLaptopMac, MdOutlineVerifiedUser } from 'react-icons/md';
 
 
 export default function Home() {
