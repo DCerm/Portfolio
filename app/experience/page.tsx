@@ -16,7 +16,7 @@ export default function Home() {
             <section className="">
                 <div className="flex gap-2 items-center ">
                     <MdOutlineCode className='text-xl'/>
-                    <p className="text-sm lg:text-lg uppercase">through the stars</p>
+                    <p className="text-sm lg:text-lg uppercase">through the stars...</p>
                 </div>
                 <h3 className="lg:text-2xl text-30px">My Development Journey</h3>
 
