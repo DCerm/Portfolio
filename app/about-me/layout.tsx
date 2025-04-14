@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Menu from '../ui/mainMenu';
+//import Menu from '../ui/mainMenu';
 import Footer from '../ui/footer';
 
 

@@ -1,7 +1,6 @@
 
 import Image from 'next/image';
 import { Button } from '../ui/buttons';
-import { H2, H4 } from '../ui/headings';
 import { Experience, Separator } from '../ui/modules';
 import {  MdOutlineDownload, MdOutlineCode, MdOutlineVerifiedUser } from 'react-icons/md';
 

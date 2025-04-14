@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import Menu from '../ui/mainMenu';
+//import Menu from '../ui/mainMenu';
 import Footer from '../ui/footer';
 
 
 export const metadata: Metadata = {
-  title: "Sam Olasoji | About Me",
-  description: "Frontend developer creating interactive interfaces",
+  title: "Sam Olasoji | Frontend Projects",
+  description: "Frontend development projects ",
 };
 
 export default function RootLayout({

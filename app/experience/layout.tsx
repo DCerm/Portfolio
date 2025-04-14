@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Menu from '../ui/mainMenu';
+//import Menu from '../ui/mainMenu';
 import Footer from '../ui/footer';
 
 
 export const metadata: Metadata = {
-  title: "Sam Olasoji | About Me",
+  title: "Sam Olasoji | My frontend development journey",
   description: "Frontend developer creating interactive interfaces",
 };
 
