@@ -18,7 +18,7 @@ export default function Home() {
                     <MdOutlineCode className='text-xl'/>
                     <p className="text-sm lg:text-lg uppercase">through the stars</p>
                 </div>
-                <h3 className="lg:text-2xl text-30px">My Development Journey.</h3>
+                <h3 className="lg:text-2xl text-30px">My Development Journey</h3>
 
                 <Separator />
 
