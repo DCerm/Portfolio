@@ -28,7 +28,7 @@ function Footer() {
                     <p className='text-xl lg:text-30px'>Need a frontend people love?</p>
                     <p className='font-semibold lg:text-[7vw] text-[12vw] md:text-[9vw] lg:pt-10 lg:pt-0 text-center leading-none font-light'>Let&apos;s Talk</p>
 
-                    <Link href="" className="mb-6 lg:my-10"><button className="rounded-full pl-8 pr-2 py-2 flex gap-4 items-center text-xl border border-gray-700">Contact Me 
+                    <Link href="/contact" className="mb-6 lg:my-10"><button className="rounded-full pl-8 pr-2 py-2 flex gap-4 items-center text-xl border border-gray-700">Contact Me 
                         <MdOutlineArrowOutward className='rh45 p-1 bg-white rounded-full text-black text-30px' />
                     </button></Link>
 

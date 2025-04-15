@@ -16,7 +16,7 @@ function MainMenu() {
 
     function Tip({ tip }) {
         return (
-            <div className="p-2 bg-col text-black absolute z-1 hidden rounded-lg lg:mt-[5%] tooltip">
+            <div className="p-2 bg-col text-black absolute z-1 hidden rounded-lg lg:mt-[3%] tooltip">
                 <p className="text-lg"> {tip} </p>
             </div>
         )

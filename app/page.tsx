@@ -26,9 +26,9 @@ export default function Home() {
                     a Frontend Developer.
                 </h1>
                 <h2 className="text-30px md:text-[40px] lg:text-3xl uppercas my-4 leading-none lg:my-6">I create <span className='text-[#0af]'>interactive</span> interfaces people love.</h2>
-                <button className=" px-6 mt-6 py-3 bg-white text-black rounded-xl hover:bg-gray-200 transition">
-                    Explore My Works
-                </button>
+                <a href="#about"><button className=" px-6 mt-6 py-3 bg-white text-black rounded-xl hover:bg-gray-200 transition">
+                    About Me
+                </button></a>
                 
             </section>
 
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
 
-            <section className="text-white flex flex-col items-cente bg- backdrop-blur-sm border-none opacity-500 lg:w-5/6">
+            <section id="about" className="text-white flex flex-col items-cente bg- backdrop-blur-sm border-none opacity-500 lg:w-5/6">
                 <div className="flex gap-2 items-center">
                     <MdOutlineVerifiedUser className='text-xl' />
                     <p className="text-sm lg:text-lg uppercase">About Me</p>
