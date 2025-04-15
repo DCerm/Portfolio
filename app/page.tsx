@@ -36,7 +36,7 @@ export default function Home() {
             <div className="py-20 hidden lg:block" />
 
 
-            <div className=" w-full canvas-wrapper">
+            <div className="h-full w-full fixed z-[-1] top-0 left-0 canvas-wrapper">
                 <SmokeEffect />
 
             </div>
