@@ -48,6 +48,7 @@ a:hover .rh45 {transform:rotate(45deg); transition: 0.1s ease-out;}
 .card:hover .rh45 {transform:rotate(45deg); transition: 0.1s ease-out;}
 .card:hover img {transform:scale(1.02); transition: 0.3s ease-out;}
 .imgF:hover button {transform:rotate(360deg); transition: 0.3s ease-out;}
+a:hover .tooltip {display:block}
 
 @media screen and (max-width: 1300px) {
     section {

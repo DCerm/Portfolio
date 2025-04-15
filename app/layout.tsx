@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { syne } from './ui/fonts';
 import "./globals.css";
 import Script from 'next/script';
+import Menu from './ui/mainMenu';
 //import Gtag from './utils/gtag';
 
 
@@ -40,17 +41,17 @@ export default function RootLayout({
       <body
         className={` ${syne.className}  text-white antialiased`}
       >
-
+        <Menu />
         {children}
 
       </body>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-PS2ELQH4RT" />
       <Script id="gtag" strategy="lazyOnload">
             {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '');
+            gtag('config', 'G-PS2ELQH4RT');
             `}
       </Script>
 
