@@ -2,7 +2,7 @@
 import Image from 'next/image';
 //import Menu from './ui/mainMenu';
 import Footer from './ui/footer';
-import SmokeEffect from './ui/smoke';
+import SmokeEffect from './ui/stars';
 //import { Button } from './ui/buttons';
 //import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
