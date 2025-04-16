@@ -1,7 +1,6 @@
 
 import Image from 'next/image';
 import Stars from '../ui/stars';
-import resume from '../../public/frontend_resume.pdf';
 import { Button } from '../ui/buttons';
 import { Experience, Separator } from '../ui/modules';
 import {  MdOutlineDownload, MdOutlineCode, MdOutlineVerifiedUser } from 'react-icons/md';
