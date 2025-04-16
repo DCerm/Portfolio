@@ -16,7 +16,9 @@ export default {
         'home-hero' : 'linear-gradient(180deg, #9fddfe33, #00000033), url("/blue.avif")',
         'dark-overlay' : 'linear-gradient(180deg, #c5e4f633, #10294bbb), url("/blue.avif")',
         'noise' : 'linear-gradient(180deg, #00000055, #000000bb), url("/noise.png")',
-        'glass' : 'linear-gradient(180deg, #00000055, #000000bb), url("https://res.cloudinary.com/diyynpqmt/image/upload/v1738571424/4_bepn2k.jpg")',
+        'planetin' : 'linear-gradient(180deg, #00000000, #00000000), url("/planetin.svg")',
+        'planetfade' : 'linear-gradient(180deg, #10294b, transparent)',
+
       },
       fontSize: {
         'sm' : '12px',

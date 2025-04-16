@@ -19,6 +19,8 @@ body {
   color: var(--foreground);
   background-color: var(--background);
   font-family: Syne;
+  max-width: 1440px;
+  
 }
 
 section {
@@ -49,6 +51,12 @@ a:hover .rh45 {transform:rotate(45deg); transition: 0.1s ease-out;}
 .card:hover img {transform:scale(1.02); transition: 0.3s ease-out;}
 .imgF:hover button {transform:rotate(360deg); transition: 0.3s ease-out;}
 a:hover .tooltip {display:block}
+
+@media screen and (min-width: 1700px) {
+    body { margin:auto }
+    .menu {display: block; text-align:center;}
+    .menuitems {}
+}
 
 @media screen and (max-width: 1300px) {
     section {

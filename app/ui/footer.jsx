@@ -45,7 +45,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div>
+                <div className="pb-24 lg:pb-0">
                     <Separator />
                 </div>
             </section>

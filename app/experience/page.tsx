@@ -41,20 +41,24 @@ export default function Home() {
                 <Experience logo="/bite.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
 
                 <div className="py-4 md:pt-8 pl-4 pb-24 md:p-[10%]">
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projects </p><br />
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">At BITe Agency, I played a key role in delivering fast, responsive, and user-friendly web experiences 
+                        for small businesses and growing brands. My work focused on turning design files into functional front-end interfaces using modern 
+                        frameworks such as React.js, Next.js, and Tailwind CSS—ensuring pixel-perfect responsiveness across devices. 
+                    </p><br />
+
+                    <p className="text-lg lg:text-xl">I built and deployed fully functional static websites using Next.js, integrating Contentful as a headless 
+                        CMS and Neon Db as the database layer to ensure scalable content management and data handling. For projects requiring user accounts and secure access, 
+                        I implemented robust authentication flows using NextAuth and OAuth, enabling secure and seamless sign-in experiences.
                     </p>
                     <br/>
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">To support business decision-making, I developed custom dashboards that allowed website owners to track traffic and monitor 
+                        form submissions in real-time. I also prioritized SEO optimization, using tools like SEMrush, Ubersuggest, Google Trends, and Next SEO, along with proper 
+                        structured metadata to boost organic visibility.
                     </p>
                     <br/>
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">Performance was never an afterthought—I regularly audited and enhanced website speed and user engagement using tools like Hotjar, 
+                        Microsoft Clarity, and Google PageSpeed Insights. These insights helped us fine-tune load times, user journeys, and overall experience to drive better results 
+                        for our clients.
                     </p>
                 </div>
                 <div id="padding" />
@@ -63,15 +67,16 @@ export default function Home() {
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
 
                 <div className="py-4 md:pt-8 pl-4 pb-24 md:p-[10%]">
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projects </p><br />
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">At Padding Technologies, I contributed to building clean, user-friendly frontend components using React.js and Tailwind CSS, 
+                        helping deliver seamless and intuitive digital experiences. My focus was on creating reusable, maintainable components that adhered to modern UI/UX standards 
+                        while ensuring responsiveness and performance across devices. 
+                    </p><br />
+                    <p className="text-lg lg:text-xl">Collaboration was central to our workflow—I worked closely with teammates on large-scale projects, actively participating in sprint planning, 
+                        daily stand-ups, and technical discussions to align on goals and ensure smooth delivery. 
                     </p>
                     <br/>
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">I also participated in code reviews, offering constructive feedback to improve code quality, performance, and scalability. 
+                        This not only strengthened our development standards but also encouraged continuous learning within the team.
                     </p>
                    
                 </div>
@@ -81,15 +86,15 @@ export default function Home() {
                 <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
 
                 <div className="py-4 md:pt-8 pl-4 pb-24 md:p-[10%]">
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projects </p><br />
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">At Just Novate, I worked closely with clients to understand their goals and define clear website requirements and functionalities 
+                        tailored to their business needs. I led the development and update of custom WordPress websites, ensuring each project delivered both visual appeal and practical functionality. 
+                    </p><br />
+                    <p className="text-lg lg:text-xl">A core part of my role was optimizing each page for search engines by implementing essential SEO elements such as meta tags, titles, and descriptions. 
+                        I also implemented security measures to safeguard sites against vulnerabilities and attacks, ensuring stable and secure online experiences for users and business owners alike. 
                     </p>
                     <br/>
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">Beyond development, I integrated essential tools like Google Analytics for traffic monitoring and various payment solutions to support online transactions. 
+                        I maintained existing WordPress websites with regular updates, troubleshooting, and content management to ensure peak performance and user satisfaction.
                     </p>
                    
                 </div>
@@ -99,21 +104,14 @@ export default function Home() {
                 <Experience logo="/webfluxx.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />
 
                 <div className="py-4 md:pt-8 pl-4 pb-24 md:p-[10%]">
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projects </p><br />
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
+                    <p className="text-lg lg:text-xl">At WebFlux, I was responsible for managing hosting environments for multiple clients using cPanel and Plesk interfaces. I ensured server-side stability by 
+                        conducting regular backups, monitoring security logs, and maintaining system integrity across multiple domains. 
+                    </p><br />
+                    <p className="text-lg lg:text-xl">Part of my responsibilities also involved on-page SEO optimization—adding relevant meta tags, titles, and descriptions to ensure all websites were search 
+                        engine friendly and easily discoverable. This blend of technical hosting management and SEO-focused development helped deliver secure, high-performing websites for a variety of businesses.
                     </p>
-                    <br/>
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                    </p>
-                    <br/>
-                    <p className="text-lg lg:text-xl">At BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                        I am responsible for developing interactive interfaces for client projectsAt BITe Agency, I am responsible for developing interactive 
-                        interfaces for client projectsAt BITe Agency, I am responsible for developing interactive interfaces for client projectsAt BITe Agency, 
-                    </p>
+                    
+                    
                 </div>
                 <Separator />
 

@@ -39,7 +39,7 @@ export default function RootLayout({
         </head>
        
       <body
-        className={` ${syne.className}  text-white antialiased`}
+        className={` ${syne.className} text-white antialiased`}
       >
         <Menu />
         {children}

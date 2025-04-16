@@ -174,7 +174,7 @@ function Project({ name, desc, src, url } : { name: string, desc: string, src: s
                     <p className="text-md md:text-lg mt-1">{desc}</p>
                 </div>
 
-                <Link href={url} className="p-2 rounded-full border border-gray-600 hover:border-white text-gray-400 hover:text-white"><MdOutlineArrowOutward className='text-25px rh45 ' /></Link>
+                <Link href={url} target='_blank' className="p-2 rounded-full border border-gray-600 hover:border-white text-gray-400 hover:text-white"><MdOutlineArrowOutward className='text-25px rh45 ' /></Link>
             </div>
 
             <div className='overflow-hidden overflow-y-hiddden'><Image src={src} alt="" height={1680} width={2520} className="w-full mt-6 h-auto rounded-t-lg overflow-hidden" /></div>

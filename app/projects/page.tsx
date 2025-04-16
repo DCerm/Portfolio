@@ -1,82 +1,76 @@
 
-import Image from 'next/image';
-import { Button } from '../ui/buttons';
-import { Experience, Separator } from '../ui/modules';
-import {  MdOutlineDownload, MdOutlineCode, MdOutlineVerifiedUser } from 'react-icons/md';
+//import Image from 'next/image';
+import Stars from '../ui/stars';
+//import { Button } from '../ui/buttons';
+import { Project, Testimony } from '../ui/modules';
+import {  MdOutlineLaptopMac, MdOutlineChatBubble } from 'react-icons/md';
 
 export default function Home() {
 
     return (
         <>
-            <section className='bg-dark pt-5 lg:pt-[100px]'>
-                <div className='flex flex-col-reverse lg:flex-row gap-12 lg:gap-24 '>
-                    <div className='lg:w-3/5 '>
-                        <div className="flex gap-2 items-center">
-                            <MdOutlineVerifiedUser className='text-xl' />
-                            <p className="text-sm lg:text-lg uppercase">I&apos;m sam olasoji</p>
-                        </div>
-                        <h3 className="text-30px lg:text-2xl">About Me</h3>
+            <div className="h-full w-full fixed z-[-1] top-0 left-0 canvas-wrapper">
+                <Stars />
 
-                        <div className="text-gray-400 mb-8">
-                            <p className="text-lg mt-4">Frontend developer that enjoys creating interactive, user-centric interfaces. </p>
-                            <p className='text-lg mt-4'>My development journey started in 2020 with basic HTML, CSS and JavaScript. Later that year, I got introduced to WordPress and I loved the ability to create functional interfaces with drag and drop builders without having to bother much about how things worked under the hood. </p>
-                            <p className="text-md lg:text-lg mt-4">As time went on, it wasn&apos;t enough. I felt my creativity was constrained by the limitations of the system I was using, and I desired to give my customers better designs and performance. I picked up an internship in frontend development and thus it began.</p>
-                            <p className="text-lg mt-4">I believe interactive, user centric interfaces are pivotal in getting the end-user&apos;s attention and transferring that attention to the product or service offering. </p>
-                        </div>
-
-                        <Button url="mailto:osolasoji@gmail.com" text="osolasoji@gmail.com" />
-                        <h4 className='font-semibold text-xl mt-10 text-white'>My Development Essentials</h4>
-
-                        <div className="flex font-normal gap-2 lg:gap-4 items-center mt-1 lg:mt-4">
-                            <p className='text-md'>Next.js</p>
-                            <p className='text-xl'>/</p>
-                            <p className='text-md'>React.js</p>
-                            <p className='text-xl'>/</p>
-                            <p className='text-md'>Tailwind CSS</p>
-                            <p className='text-lg'>/</p>
-                            <p className='text-md'>Github</p>
-
-                        </div>
-
-                    </div>
-
-                    <div className='lg:w-2/5 lg:text-right pt-0  flex flex-col justify-between'>
-                        <div className="p-4 rounded-md bg-[#c5e4f6]">
-                            <Image src="/resume.png"
-                                width={836}
-                                height={720}
-                                alt=""
-                                className='w-full h-auto'
-                            />
-                            <div className="border-t p-2 bg-[#10294b]">
-                                <a href="mailto:osolasoji@gmail.com">
-                                    <p className='text-gray-200 flex gap-1 hover:gap-3 justify-center transition-ease text-lg hover:text-white'>Download Resume <MdOutlineDownload className='mt-1.5' /></p>
-                                </a>
-                            </div>
-                        </div>
-                        <Image src="/sam.jpeg" alt="Sam Olasoji" height={720} width={836} className='w-full h-auto rounded-sm hidden' />
-                        
-                    </div>
+            </div>
+            {/* PROJECTS        PROJECTS        PROJECTS        PROJECTS        PROJECTS*/}
+            
+            <section className="text-white bg-cover">
+                <div className="flex gap-2 items-center ">
+                    <MdOutlineLaptopMac className='text-xl'/>
+                    <p className="text-sm lg:text-lg uppercase">creations</p>
                 </div>
+                <h3 className="text-30px lg:text-2xl">My Selected Works</h3>
+
+                <div className="grid lg:grid-cols-2 gap-4 mt-8">
+                    <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="https://theleadman.org" src="/mockup.jpeg" />
+                    <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="https://brilliantlightrealty.com" src="/mockup2.jpeg" />
+                    <Project name="Portfolio" desc="A portfolio website" url="https://faithewobe.vercel.app" src="/mockup3.jpeg" />
+                    <Project name="Benison" desc="Home health web app with analytics dashboard" url="https://benison.ng" src="/mockup4.png" />
+                    
+                </div>
+
+                
             </section>
 
-             {/* EXPERIENCE        EXPERIENCE        EXPERIENCE        EXPERIENCE        EXPERIENCE*/}   
             
-            <section className="">
+
+            <section className="text-white">
                 <div className="flex gap-2 items-center ">
-                    <MdOutlineCode className='text-xl'/>
-                    <p className="text-sm lg:text-lg uppercase">development journey</p>
+                    <MdOutlineChatBubble className='text-xl'/>
+                    <p className="text-sm lg:text-lg uppercase">Testimonials</p>
                 </div>
-                <h3 className="lg:text-2xl text-30px">My Experience</h3>
+                <h3 className="lg:text-2xl text-xl">Clients Review</h3>
 
-                <Separator />
+                <div className="mt-4 flex flex-col lg:flex-row gap-2 lg:gap-8">
+                    <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg lg:w-1/3 p-4 lg:p-8 flex flex-col justify-between">
+                        <p className="text-lg">&quot;I&apos;ve collaborated with Sam on several projects and hold him in high esteem. He&apos;s quick to respond, dependable, resourceful, and pragmatic.
+                            He has been wonderful to work with as I navigate the rough seas of growing a business. 
+                            I have complete confidence in utilizing his services for any upcoming projects.&quot;
+                        </p>
+                        <div className="flex gap-4 items-center mt-4">
+                            <p className="text-lg lg:text-xl font-semibold text-white">Harry Fiorentinos</p>
+                            <p className="text-sm text-gray-400"> - &nbsp; CEO, Raven Gold LLC</p>
+                        </div>
+                    </div>
 
-                <Experience logo="/bite.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
-                <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
-                <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
-                <Experience logo="/Sam-Olasoji.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />
+                    <Testimony
+                        review="&quot;Sam is the best at what he does — website development and optimisation. Today, our website is way faster than it was when we were on WordPress.
+                        The website looks much nicer and responds super fast. Engage Sam today, you will not be disappointed at all. I strongly recommend Sam&quot; "
+                        name="Olajumoke O." title="CEO, TheLeadman Africa"
+                    />
 
-            </section>            
+                    <Testimony
+                        review="&quot;I had the pleasure of working with Sam on creating my portfolio website. and I couldn&apos;t have asked for a better experience.
+                            Sam took my initial Canva designs and transformed them into a stunning, functional website that exceeded my expectations. 
+                            His attention to detail and willigness to incorporate my feedback with patience and professionalism were truly impressive.&quot;"
+                        name="Faith Ewobe" title="Client, Portfolio Website"
+                    />
+                </div>
+
+                
+
+            </section>          
             
 
             {/* FOOTER          FOOTER          FOOTER         FOOTER        FOOTER*/}

@@ -1,6 +1,7 @@
 
 import Image from 'next/image';
 import Stars from '../ui/stars';
+import resume from '../../public/frontend_resume.pdf';
 import { Button } from '../ui/buttons';
 import { Experience, Separator } from '../ui/modules';
 import {  MdOutlineDownload, MdOutlineCode, MdOutlineVerifiedUser } from 'react-icons/md';
@@ -13,7 +14,7 @@ export default function Home() {
                 <Stars />
             </div>
             <section className=' pt-5 lg:pt-[100px]'>
-                <div className='flex flex-col-reverse lg:flex-row gap-12 lg:gap-24 '>
+                <div className='flex flex-col-reverse lg:flex-row gap-12 lg:gap-24 items-center'>
                     <div className='lg:w-3/5 '>
                         <div className="flex gap-2 items-center">
                             <MdOutlineVerifiedUser className='text-xl' />
@@ -22,10 +23,9 @@ export default function Home() {
                         <h3 className="text-30px lg:text-2xl">About Me</h3>
 
                         <div className=" mb-8">
-                            <p className="text-lg mt-4">Frontend developer that enjoys creating interactive, user-centric interfaces. </p>
-                            <p className='text-lg mt-4'>My development journey started in 2020 with basic HTML, CSS and JavaScript. Later that year, I got introduced to WordPress and I loved the ability to create functional interfaces with drag and drop builders without having to bother much about how things worked under the hood. </p>
-                            <p className="text-md lg:text-lg mt-4">As time went on, it wasn&apos;t enough. I felt my creativity was constrained by the limitations of the system I was using, and I desired to give my customers better designs and performance. I picked up an internship in frontend development and thus it began.</p>
-                            <p className="text-lg mt-4">I believe interactive, user centric interfaces are pivotal in getting the end-user&apos;s attention and transferring that attention to the product or service offering. </p>
+                            <p className="text-lg mt-4">Frontend developer with a passion for crafting interactive, user-centric interfaces. </p>
+                            <p className='text-lg mt-4'>I began my journey in 2020 with HTML, CSS, and JavaScript, later exploring WordPress to quickly bring ideas to life. But I craved more creative freedom and performance—so I dove deeper, landed a frontend internship, and never looked back. </p>
+                            <p className="text-md lg:text-lg mt-4">Today, I focus on building seamless, engaging experiences that capture user attention and connect it to real business value.</p>
                         </div>
 
                         <Button url="mailto:osolasoji@gmail.com" text="osolasoji@gmail.com" />
@@ -53,13 +53,11 @@ export default function Home() {
                                 className='w-full h-auto'
                             />
                             <div className="border-t p-2 bg-[#10294b]">
-                                <a href="mailto:osolasoji@gmail.com">
+                                <a href="/frontend_resume.pdf" locale={false} target="_blank">
                                     <p className='text-gray-200 flex gap-1 hover:gap-3 justify-center transition-ease text-lg hover:text-white'>Download Resume <MdOutlineDownload className='mt-1.5' /></p>
                                 </a>
                             </div>
-                        </div>
-                        <Image src="/sam.jpeg" alt="Sam Olasoji" height={720} width={836} className='w-full h-auto rounded-sm hidden' />
-                        
+                        </div>                        
                     </div>
                 </div>
             </section>
@@ -82,7 +80,7 @@ export default function Home() {
 
                 <div className="py-2 lg:py-4" />
 
-                <Button url="/experience" text="View All Experience" />
+                <Button url="/experience" text="View Experience Details" />
 
             </section>            
             

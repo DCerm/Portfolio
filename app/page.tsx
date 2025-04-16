@@ -3,7 +3,7 @@ import Image from 'next/image';
 //import Menu from './ui/mainMenu';
 import Footer from './ui/footer';
 import SmokeEffect from './ui/stars';
-//import { Button } from './ui/buttons';
+import { Button } from './ui/buttons';
 //import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
 import { MdOutlineChatBubble, MdOutlineCode,  MdOutlineLaptopMac, MdOutlineVerifiedUser } from 'react-icons/md';
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
 
-            <section id="about" className="text-white flex flex-col items-cente bg- backdrop-blur-sm border-none opacity-500 lg:w-5/6">
+            <section id="about" className="text-white flex flex-col items-cente border-none lg:w-5/6">
                 <div className="flex gap-2 items-center">
                     <MdOutlineVerifiedUser className='text-xl' />
                     <p className="text-sm lg:text-lg uppercase">About Me</p>
@@ -120,7 +120,7 @@ export default function Home() {
 
             {/* PROJECTS        PROJECTS        PROJECTS        PROJECTS        PROJECTS*/}
 
-            <section className=" bg-cover">
+            <section className="text-white bg-cover">
                 <div className="flex gap-2 items-center ">
                     <MdOutlineLaptopMac className='text-xl'/>
                     <p className="text-sm lg:text-lg uppercase">creations</p>
@@ -128,10 +128,10 @@ export default function Home() {
                 <h3 className="text-30px lg:text-2xl">My Selected Works</h3>
 
                 <div className="grid lg:grid-cols-2 gap-4 mt-8">
-                    <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="" src="/mockup.jpeg" />
-                    <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="" src="/mockup2.jpeg" />
-                    <Project name="Portfolio" desc="A portfolio website" url="" src="/mockup3.jpeg" />
-                    <Project name="Benison" desc="Home health web app with analytics dashboard" url="" src="/mockup4.png" />
+                    <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="https://theleadman.org" src="/mockup.jpeg" />
+                    <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="https://brilliantlightrealty.com" src="/mockup2.jpeg" />
+                    <Project name="Portfolio" desc="A portfolio website" url="https://faithewobe.vercel.app" src="/mockup3.jpeg" />
+                    <Project name="Benison" desc="Home health web app with analytics dashboard" url="https://benison.ng" src="/mockup4.png" />
                 </div>
 
                
@@ -139,7 +139,7 @@ export default function Home() {
 
             {/* EXPERIENCE        EXPERIENCE        EXPERIENCE        EXPERIENCE        EXPERIENCE*/}   
 
-            <section className="">
+            <section className="text-white">
                 <div className="flex gap-2 items-center ">
                     <MdOutlineCode className='text-xl'/>
                     <p className="text-sm lg:text-lg uppercase">development journey</p>
@@ -152,11 +152,13 @@ export default function Home() {
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
                 <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
                 <Experience logo="/webfluxx.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />
-
+                    
+                <div className="py-2 lg:py-4" />
+                <Button url="/experience" text="View Experience Details" />
             </section>
             
 
-            <section className="">
+            <section className="text-white">
                 <div className="flex gap-2 items-center ">
                     <MdOutlineChatBubble className='text-xl'/>
                     <p className="text-sm lg:text-lg uppercase">Testimonials</p>
