@@ -22,7 +22,7 @@ function Footer() {
     return (
         <>
 
-            <section className="pb-0 flex flex-col justify-between lg:gap-36 text-white ">
+            <section className="pb-0 flex flex-col justify-between lg:gap-36 text-white  bg-astr bg-no-repeat bg-left-bottom  bg-auto">
                 <div className='flex flex-col items-center gap-8'>
                     <p className='lg:text-[5vw] text-[50px] md:text-[9vw] pt-32 lg:pt-5 text-center leading-none font-light'>🫱🏻‍🫲🏼</p>
                     <p className='text-xl lg:text-30px'>Need a frontend people love?</p>

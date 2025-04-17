@@ -2,7 +2,6 @@
 import Image from 'next/image';
 //import Menu from './ui/mainMenu';
 import Footer from './ui/footer';
-import SmokeEffect from './ui/stars';
 import { Button } from './ui/buttons';
 //import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
@@ -34,12 +33,6 @@ export default function Home() {
 
 
             <div className="py-20 hidden lg:block" />
-
-
-            <div className="h-full w-full fixed z-[-1] top-0 left-0 canvas-wrapper">
-                <SmokeEffect />
-
-            </div>
 
 
             <section id="about" className="text-white flex flex-col items-cente border-none lg:w-5/6">

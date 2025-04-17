@@ -1,6 +1,5 @@
 
 //import Image from 'next/image';
-import Stars from '../ui/stars';
 //import { Button } from '../ui/buttons';
 import { Project, Testimony } from '../ui/modules';
 import {  MdOutlineLaptopMac, MdOutlineChatBubble } from 'react-icons/md';
@@ -9,10 +8,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="h-full w-full fixed z-[-1] top-0 left-0 canvas-wrapper">
-                <Stars />
-
-            </div>
+            
             {/* PROJECTS        PROJECTS        PROJECTS        PROJECTS        PROJECTS*/}
             
             <section className="text-white bg-cover">
@@ -23,10 +19,10 @@ export default function Home() {
                 <h3 className="text-30px lg:text-2xl">My Selected Works</h3>
 
                 <div className="grid lg:grid-cols-2 gap-4 mt-8">
-                    <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="https://theleadman.org" src="/mockup.jpeg" />
-                    <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="https://brilliantlightrealty.com" src="/mockup2.jpeg" />
-                    <Project name="Portfolio" desc="A portfolio website" url="https://faithewobe.vercel.app" src="/mockup3.jpeg" />
-                    <Project name="Benison" desc="Home health web app with analytics dashboard" url="https://benison.ng" src="/mockup4.png" />
+                    <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="/projects/theleadman" src="/mockup.jpeg" />
+                    <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="/projects/brilliant-light-realty" src="/mockup2.jpeg" />
+                    <Project name="Portfolio" desc="A portfolio website" url="/projects/portfolio-website" src="/mockup3.jpeg" />
+                    <Project name="Benison" desc="Home health web app with analytics dashboard" url="/projects/benison-web-app" src="/mockup4.png" />
                     
                 </div>
 

@@ -1,6 +1,5 @@
 
 import Image from 'next/image';
-import Stars from '../ui/stars';
 import { Button } from '../ui/buttons';
 import { Experience, Separator } from '../ui/modules';
 import {  MdOutlineDownload, MdOutlineCode, MdOutlineVerifiedUser } from 'react-icons/md';
@@ -9,9 +8,6 @@ export default function Home() {
 
     return (
         <>
-            <div className="h-full w-full fixed z-[-1] top-0 left-0">
-                <Stars />
-            </div>
             <section className=' pt-5 lg:pt-[100px]'>
                 <div className='flex flex-col-reverse lg:flex-row gap-12 lg:gap-24 items-center'>
                     <div className='lg:w-3/5 '>

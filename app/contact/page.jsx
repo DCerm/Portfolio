@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Stars from '../ui/stars';
 import { hand } from '../ui/fonts';
 import { Button } from '../ui/buttons';
 import { ContactForm } from '../ui/forms';
@@ -10,7 +9,6 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function Contact() {
     return (
         <>
-            <div className='w-full h-full fixed top-0 left-0 z-[-1]'><Stars /></div>
 
             <section className="md:flex justify-betwee items-center">
                 <div className="md:w-3/5 lg:w-1/2">
@@ -57,8 +55,8 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-between bg-ox rounded-lg px-4">
-                            <p className="text-lg lg:text-25px font-semibold text-white my-0 py-o">Prefer to book a call?</p>
+                        <div className="md:flex md:items-start lg:items-center justify-between bg-ox rounded-lg p-4 md:pb-0 lg:py-0">
+                            <p className="text-lg lg:text-25px md:text-30px font-semibold text-white mb-4 md:mb-0 py-o">Prefer to book a call?</p>
                             <Button url="" text="Book a Call" />
                         </div>
                     </div>

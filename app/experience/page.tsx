@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Stars from '../ui/stars';
 //import { Button } from '../ui/buttons';
 import { Experience, Separator } from '../ui/modules';
 import {  MdOutlineCode } from 'react-icons/md';
@@ -8,10 +7,6 @@ export default function Home() {
 
     return (
         <>
-            <div className="h-full w-full fixed z-[-1] top-0 left-0">
-                <Stars />
-            </div>
-
             {/* EXPERIENCE        EXPERIENCE        EXPERIENCE        EXPERIENCE        EXPERIENCE*/}   
             
             <section className="">
@@ -40,7 +35,7 @@ export default function Home() {
 
                 <Experience logo="/bite.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
 
-                <div className="py-4 md:pt-8 pl-4 pb-24 md:p-[10%]">
+                <div className="py-4 md:pt-8 pl-4  md:px-[10%]">
                     <p className="text-lg lg:text-xl">At BITe Agency, I played a key role in delivering fast, responsive, and user-friendly web experiences 
                         for small businesses and growing brands. My work focused on turning design files into functional front-end interfaces using modern 
                         frameworks such as React.js, Next.js, and Tailwind CSS—ensuring pixel-perfect responsiveness across devices. 
@@ -61,12 +56,12 @@ export default function Home() {
                         for our clients.
                     </p>
                 </div>
-                <div id="padding" />
+                <div id="padding" className='pb-[40%] md:pb-[20%] lg:pb-[10%]' />
                 <Separator  />
 
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
 
-                <div className="py-4 md:pt-8 pl-4 pb-24 md:p-[10%]">
+                <div className="py-4 md:pt-8 pl-4 md:px-[10%]">
                     <p className="text-lg lg:text-xl">At Padding Technologies, I contributed to building clean, user-friendly frontend components using React.js and Tailwind CSS, 
                         helping deliver seamless and intuitive digital experiences. My focus was on creating reusable, maintainable components that adhered to modern UI/UX standards 
                         while ensuring responsiveness and performance across devices. 
@@ -80,12 +75,12 @@ export default function Home() {
                     </p>
                    
                 </div>
-                <div id="jn" />
+                <div id="jn" className='pb-[40%] md:pb-[20%] lg:pb-[10%]' />
                 <Separator />
 
                 <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
 
-                <div className="py-4 md:pt-8 pl-4 pb-24 md:p-[10%]">
+                <div className="py-4 md:pt-8 pl-4 md:px-[10%]">
                     <p className="text-lg lg:text-xl">At Just Novate, I worked closely with clients to understand their goals and define clear website requirements and functionalities 
                         tailored to their business needs. I led the development and update of custom WordPress websites, ensuring each project delivered both visual appeal and practical functionality. 
                     </p><br />
@@ -98,7 +93,7 @@ export default function Home() {
                     </p>
                    
                 </div>
-                <div id="webflux" />
+                <div id="webflux" className='pb-[40%] md:pb-[20%] lg:pb-[10%]' />
                 <Separator />
 
                 <Experience logo="/webfluxx.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />

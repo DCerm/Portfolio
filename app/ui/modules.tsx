@@ -2,9 +2,11 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Button } from "@/app/ui/buttons";
 import { H2, H4 } from './headings';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import { PlusIcon } from '@heroicons/react/24/outline';
+import { FaCalendar, FaLaptop, FaTools, FaUser } from 'react-icons/fa';
 
 
 function Separator() {
@@ -174,11 +176,102 @@ function Project({ name, desc, src, url } : { name: string, desc: string, src: s
                     <p className="text-md md:text-lg mt-1">{desc}</p>
                 </div>
 
-                <Link href={url} target='_blank' className="p-2 rounded-full border border-gray-600 hover:border-white text-gray-400 hover:text-white"><MdOutlineArrowOutward className='text-25px rh45 ' /></Link>
+                <Link href={url} className="p-2 rounded-full border border-gray-600 hover:border-white text-gray-400 hover:text-white"><MdOutlineArrowOutward className='text-25px rh45 ' /></Link>
             </div>
 
             <div className='overflow-hidden overflow-y-hiddden'><Image src={src} alt="" height={1680} width={2520} className="w-full mt-6 h-auto rounded-t-lg overflow-hidden" /></div>
         </div>
     )
 }
-export { Separator, Toggle, ImgToggle, Services, Testimony, Experience, Project }
+
+function ProjectHead({ name, url, img, client, service, tools, year } : { name: string, url: string, img: string, client: string, service: string, tools: string, year: string }) {
+    return (
+        <section className="text-white pb-0">
+            <div className="flex justify-between items-center pb-4 lg:pb-6">
+                <h2 className="text-25px md:text-30px lg:text-2xl">{name}</h2>
+                <span className="hidden md:block"><Button url={url} text="Visit Website" /></span>
+                <Link href={url} className="flex gap-1 md:hidden">Visit Website <MdOutlineArrowOutward className="rh45 mt-1" /></Link>
+            </div>
+
+            <Image src={img} alt="benison web app" height={2400} width={3200} 
+                className="rounded-xl lg:rounded-3xl w-full h-auto mb-8 lg:mb-16" 
+            />
+
+            <div className="lg:flex justify-between">
+                <h3 className="text-xl md:text-25px md:pb-2 lg:pb-0 lg:text-30px lg:w-1/4 font-semibold">Project Info</h3>
+                <div className="hidden md:flex md:gap-4 lg:gap-16 lg:w-3/4">
+                    <div className='md:w-1/4 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaUser className="text-xl  text-oaf" />
+                            <p className="text-xl font-semibold">Client</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{client}</p>
+                    </div>
+
+                    <div className='md:w-1/4 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaLaptop className="text-xl  text-oaf" />
+                            <p className="text-xl font-semibold">Service</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{service}</p>
+                    </div>
+
+                    <div className='md:w-1/4 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaTools className="text-xl  text-oaf" />
+                            <p className="text-xl font-semibold">Tools</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{tools}</p>
+                    </div>
+
+                    <div className='md:w-1/4 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaCalendar className="text-xl  text-oaf" />
+                            <p className="text-xl font-semibold">Year</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{year}</p>
+                    </div>
+                </div>
+
+                {/** Mobile view */}
+                <div className="mt-6 md:hidden flex gap-4 ">
+                    <div className='w-1/2 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaUser className="text-xl  text-oaf" />
+                            <p className="text-lg font-semibold">Client</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{client}</p>
+                    </div>
+
+                    <div className='w-1/2 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaLaptop className="text-xl  text-oaf" />
+                            <p className="text-lg font-semibold">Service</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{service}</p>
+                    </div>
+                </div>
+
+                <div className="mt-6 md:hidden flex gap-4 ">
+                    <div className='w-1/2 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaTools className="text-xl  text-oaf" />
+                            <p className="text-lg font-semibold">Tools</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{tools}</p>
+                    </div>
+
+                    <div className='w-1/2 lg:w-auto'>
+                        <div className="flex gap-2 items-center">
+                            <FaCalendar className="text-xl  text-oaf" />
+                            <p className="text-lg font-semibold">Year</p>
+                        </div>
+                        <p className="text-lg text-gray-300">{year}</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    )
+}
+export { Separator, Toggle, ImgToggle, Services, Testimony, Experience, Project, ProjectHead }
