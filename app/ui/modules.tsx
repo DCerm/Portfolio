@@ -184,9 +184,9 @@ function Project({ name, desc, src, url } : { name: string, desc: string, src: s
     )
 }
 
-function ProjectHead({ name, url, img, client, service, tools, year } : { name: string, url: string, img: string, client: string, service: string, tools: string, year: string }) {
+function ProjectHead({ name, url, img, client, service, tools, year, about } : { name: string, url: string, img: string, client: string, service: string, tools: string, year: string, about: string }) {
     return (
-        <section className="text-white pb-0">
+        <section className="text-white ">
             <div className="flex justify-between items-center pb-4 lg:pb-6">
                 <h2 className="text-25px md:text-30px lg:text-2xl">{name}</h2>
                 <span className="hidden md:block"><Button url={url} text="Visit Website" /></span>
@@ -268,6 +268,13 @@ function ProjectHead({ name, url, img, client, service, tools, year } : { name: 
                         </div>
                         <p className="text-lg text-gray-300">{year}</p>
                     </div>
+                </div>
+            </div>
+
+            <div className="lg:flex justify-between mt-6 lg:mt-12">
+                <h3 className="text-xl md:text-25px md:pb-2 lg:pb-0 lg:text-30px lg:w-1/4 font-semibold">About the Project</h3>
+                <div className="lg:w-3/4">
+                    <p className="text-lg">{about}</p>
                 </div>
             </div>
 
