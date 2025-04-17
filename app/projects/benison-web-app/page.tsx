@@ -1,9 +1,5 @@
 import Image from 'next/image';
-import { Button } from "@/app/ui/buttons";
 import { ProjectHead } from "@/app/ui/modules";
-import { FaCalendar, FaLaptop, FaTools, FaUser } from 'react-icons/fa';
-import Link from 'next/link';
-import { MdOutlineArrowOutward } from 'react-icons/md';
 
 export default function Page() {
     return (
