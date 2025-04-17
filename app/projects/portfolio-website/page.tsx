@@ -11,6 +11,8 @@ export default function Page() {
                 service="Static website development"
                 tools="React.js | Github "
                 year="2025" 
+                about=""
+
             />
 
             <section className="text-white lg:flex justify-between">

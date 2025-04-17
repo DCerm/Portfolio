@@ -11,6 +11,7 @@ export default function Page() {
                 service="Web app frontend development"
                 tools="Next.js | Tailwind CSS | Github | NextAuth | APIs"
                 year="2025" 
+                about=""
             />
 
             <section className="text-white lg:flex justify-between">
