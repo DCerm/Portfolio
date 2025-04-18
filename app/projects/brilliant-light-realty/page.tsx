@@ -58,13 +58,19 @@ export default function Page() {
                     <li>Real-time updates to the team, ensuring no inquiry goes unnoticed</li>
                     <li>Easy access to all submissions in a single, organized location</li>
                     <li>Controlled access to submissions by assigning specific sheets to specific team members</li>
+
+                    <p className="text-xl font-semibold mt-8 uppercase"> Results  </p>
+                    <p className="text-lg mb-4">The finished product is a clean, professional, and fully responsive website that loads fast, ranks well, and gives the Brilliant Light Realty team full autonomy over their content. 
+                        It&apos;s designed not just to showcase properties but also to build credibility and drive engagement with potential buyers and sellers.
+                    </p>
+
                 </div>
 
 
-                <div className="lg:w-2/5 lg:sticky top-0 h-screen overflow-y-scroll mt-8 lg:mt-0">
+                <div className="lg:w-2/5 lg:sticky top-0 h-screen overflow-y-scroll mt-8 lg:mt-0 rounded-xl lg:rounded-3xl ">
                     <p className="text-sm text-center my-2">The website. Scroll over the image for a full-length view</p>
                     <Image src="/blrfull.png" alt="Brilliant Light Realty Website" height={16040} width={2880} 
-                        className="rounded-xl lg:rounded-3xl w-full h-auto mb-8 lg:mb-16" 
+                        className="w-full h-auto mb-8 lg:mb-16" 
                     />
                 </div>
             </section>

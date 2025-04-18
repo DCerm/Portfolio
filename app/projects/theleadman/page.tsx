@@ -11,7 +11,7 @@ export default function Page() {
                 client="The Leadman Africa"
                 service="Web app frontend development"
                 tools="React.js | CSS3 | Github | API "
-                year="2025" 
+                year="2024" 
                 about="The Leadman Affrica is a human capital development company that equips leaders and young professionals
                     with the skills and mindset to thrive in a rapidly changing world. The website serves as a platform for
                     showcasing their services, programs, and resources. It is also the registration portal  for their training programs."
