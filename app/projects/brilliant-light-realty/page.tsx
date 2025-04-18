@@ -54,6 +54,10 @@ export default function Page() {
 
                     <p className="text-xl font-semibold mt-8 uppercase"> Form Integration & Team Workflow  </p>
                     <p className="text-lg mb-4">Form submissions on the site — such as inquiries and contact messages — are automatically funneled into a Google Spreadsheet via the Google Sheets API. This approach offers:</p>
+                    <li>Easy data management for the client team</li>
+                    <li>Real-time updates to the team, ensuring no inquiry goes unnoticed</li>
+                    <li>Easy access to all submissions in a single, organized location</li>
+                    <li>Controlled access to submissions by assigning specific sheets to specific team members</li>
                 </div>
 
 
