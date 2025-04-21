@@ -1,46 +1,63 @@
+'use client';
 
-//import Link from 'next/link';
-import NavLink from 'next/link';
-import { MdOutlineHome, MdOutlinePerson2, MdOutlineWorkHistory, MdOutlineLaptopMac, MdOutlineMessage } from 'react-icons/md';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import {
+  MdOutlineHome,
+  MdOutlinePerson2,
+  MdOutlineWorkHistory,
+  MdOutlineLaptopMac,
+  MdOutlineMessage
+} from 'react-icons/md';
 
 function MainMenu() {
-    /*
-  const [isOpen, setIsOpen] = useState(true);
+  const pathname = usePathname();
 
-  // Toggle the mobile menu open/close state
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };  
-  
-  const closeMenu = () => setIsOpen(false);*/
+  const isActive = (path) => pathname === path;
 
-    function Tip({ tip }) {
-        return (
-            <div className="p-2 bg-col text-black absolute z-1 hidden rounded-lg lg:mt-[3%] tooltip">
-                <p className="text-lg"> {tip} </p>
-            </div>
-        )
-    }
+  function Tip({ tip }) {
+    return (
+      <div className="p-2 bg-col text-black absolute z-1 hidden rounded-lg lg:mt-[3%] tooltip">
+        <p className="text-lg"> {tip} </p>
+      </div>
+    );
+  }
 
-const menu = (
+  const getLinkClass = (path) =>
+    `border ${isActive(path) ? 'text-[#0af] border-[#0af]' : 'text-gray-300 border-gray-400'} 
+     hover:text-[#0af] hover:border-[#0af] p-1.5 lg:p-2.5 
+     rounded-full text-30px lg:text-2xl font-light`;
 
-    <>
-        <section className="flex fixed bottom-[2%] lg:bottom-[5%] py-0 items-center justify-center z-[10000] w-full menu">
+  return (
+    <section className="flex fixed bottom-[2%] lg:bottom-[5%] py-0 items-center justify-center z-[10000] w-full menu">
+      <div className="flex bg-[#ffffff10] backdrop-blur-md opacity-300 text-gray-300 py-2.5 lg:py-4 justify-around w-full lg:w-1/2 text-center rounded-xl menuitems">
+        <Link href="/" className={getLinkClass('/')}>
+          <MdOutlineHome />
+          <Tip tip="Home" />
+        </Link>
 
-            <div className='flex bg-[#ffffff10] backdrop-blur-md opacity-300 text-gray-300 py-2.5 lg:py-4 justify-around w-full lg:w-1/2 text-center rounded-xl menuitems'>
-                <NavLink href='/'  className='border border-gray-400 hover:text-[#0af] hover:border-[#0af] p-1.5 lg:p-2.5 rounded-full text-30px lg:text-2xl font-light'> <MdOutlineHome /> <Tip tip="Home" /> </NavLink>
-                <NavLink href='/about-me' className='border border-gray-400 hover:text-[#0af] hover:border-[#0af] p-1.5 lg:p-2.5 rounded-full text-30px lg:text-2xl'> <MdOutlinePerson2 /> <Tip tip="About Me" /></NavLink>
-                <NavLink href='/experience' className='border border-gray-400 hover:text-[#0af] hover:border-[#0af] p-1.5 lg:p-2.5 rounded-full text-30px lg:text-2xl'> <MdOutlineWorkHistory /> <Tip tip="Work Experience" /></NavLink>
-                <NavLink href='/projects' className=' border border-gray-400 hover:text-[#0af] hover:border-[#0af] p-1.5 lg:p-2.5 rounded-full text-30px lg:text-2xl'> <MdOutlineLaptopMac /> <Tip tip="Projects" /></NavLink>
-                <NavLink href='/contact' className=' border border-gray-400 hover:text-[#0af] hover:border-[#0af] p-1.5 lg:p-2.5 rounded-full text-30px lg:text-2xl'> <MdOutlineMessage /> <Tip tip="Contact Me" /></NavLink>
-            </div>  
-        </section>
-  </>
-);
+        <Link href="/about-me" className={getLinkClass('/about-me')}>
+          <MdOutlinePerson2 />
+          <Tip tip="About Me" />
+        </Link>
 
-return menu;
+        <Link href="/experience" className={getLinkClass('/experience')}>
+          <MdOutlineWorkHistory />
+          <Tip tip="Work Experience" />
+        </Link>
 
+        <Link href="/projects" className={getLinkClass('/projects')}>
+          <MdOutlineLaptopMac />
+          <Tip tip="Projects" />
+        </Link>
+
+        <Link href="/contact" className={getLinkClass('/contact')}>
+          <MdOutlineMessage />
+          <Tip tip="Contact" />
+        </Link>
+      </div>
+    </section>
+  );
 }
-
 
 export default MainMenu;

@@ -33,7 +33,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="w-2/5 md:w-1/5 lg:pt-0 pt-5 mx-auto md:mx-0">
-                    <Image src="/spaceship.png" alt="" height={670} width={1192} clssName=" lg:w-1/5 h-auto " />
+                    <Image src="/spaceship.png" alt="" height={670} width={1192} className="w-4/5 h-auto " />
                 </div>
             </section>  
 
