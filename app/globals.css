@@ -20,6 +20,7 @@ body {
   background-color: var(--background);
   font-family: Syne;
   max-width: 1440px;
+  overflow-x: hidden;
   
 }
 
