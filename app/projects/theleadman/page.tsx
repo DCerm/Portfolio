@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <>
             <ProjectHead name="The Leadman Africa Website" 
-                url="https://brilliantlightrealty.com"
+                url="https://theleadman.org"
                 img="/mockup.jpeg"
                 client="The Leadman Africa"
                 service="Web app frontend development"

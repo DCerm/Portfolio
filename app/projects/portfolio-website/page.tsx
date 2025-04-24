@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/app/ui/buttons";
 import { ProjectHead } from "@/app/ui/modules";
 
 export default function Page() {
@@ -71,6 +72,8 @@ export default function Page() {
                         alt="portfolio website" height={9346} width={2880} 
                         className=" w-full h-auto mb-8 lg:mb-16" 
                     />
+                    <Button url="https://faithewobe.vercel.app" text="Visit Website" />
+
                 </div>
             </section>
         </>
