@@ -73,7 +73,7 @@ export default function Page() {
                     <Image src="/blrfull.png" alt="Brilliant Light Realty Website" height={16040} width={2880} 
                         className="w-full h-auto mb-8 lg:mb-16" 
                     />
-                    <Button url="https://theleadman.org" text="Visit Website" />
+                    <Button url="https://brilliantlightrealty.com" text="Visit Website" />
                 </div>
             </section>
         </>
