@@ -26,7 +26,7 @@ function MainMenu() {
   const getLinkClass = (path) =>
     `border ${isActive(path) ? 'text-[#0af] border-[#0af]' : 'text-gray-300 border-gray-400'} 
      hover:text-[#0af] hover:border-[#0af] p-1.5 lg:p-2.5 
-     rounded-full text-30px lg:text-[50px] font-light`;
+     rounded-full text-30px lg:text-[40px] font-light`;
 
   return (
     <section className="flex fixed bottom-[2%] lg:bottom-[5%] py-0 items-center justify-center z-[10000] w-full menu">
