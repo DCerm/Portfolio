@@ -55,8 +55,7 @@ a:hover .tooltip {display:block}
 
 @media screen and (min-width: 1700px) {
     body { margin:auto }
-    .menu {display: block; text-align:center;}
-    .menuitems {}
+    .menu {max-width:1440px;}
 }
 
 @media screen and (max-width: 1300px) {
