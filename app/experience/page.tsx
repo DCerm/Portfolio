@@ -16,29 +16,61 @@ export default function Home() {
                             <MdOutlineCode className='text-xl'/>
                             <p className="text-sm lg:text-lg uppercase">through the stars</p>
                         </div>
-                        <h3 className="lg:text-2xl text-30px relative">My Frontend Journey</h3>
+                        <h3 className="lg:text-2xl text-30px relative">My Fullstack Development Journey</h3>
                     </div>
 
                     <div className="flex justify-around items-center gap-0">
-                        <a href="#bite"><Image src="/bite.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#c5e4f6] hover:lg:w-[70px] hover:lg:h-[70px]" /></a>
+                        <a href="#ojailu"><Image src="/ojalogo.jpg" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#0af] hover:lg:w-[55px] hover:lg:h-[55px]" /></a>
                         <div className="px-4 lg:px-8 border-t border-gray-600 " />
-                        <a href="#padding"><Image src="/padding.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#c5e4f6] hover:lg:w-[70px] hover:lg:h-[70px]" /></a>
+                        <a href="#bite"><Image src="/bite.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#0af] hover:lg:w-[55px] hover:lg:h-[55px]" /></a>
                         <div className="px-4 lg:px-8 border-t border-gray-600 " />
-                        <a href="#jn"><Image src="/justnovate.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#c5e4f6] hover:lg:w-[70px] hover:lg:h-[70px]" /></a>
+                        <a href="#padding"><Image src="/padding.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#0af] hover:lg:w-[55px] hover:lg:h-[55px]" /></a>
                         <div className="px-4 lg:px-8 border-t border-gray-600 " />
-                        <a href="#webflux"><Image src="/webflux.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#c5e4f6] hover:lg:w-[70px] hover:lg:h-[70px]" /></a>
+                        <a href="#jn"><Image src="/justnovate.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#0af] hover:lg:w-[55px] hover:lg:h-[55px]" /></a>
+                        <div className="px-4 lg:px-8 border-t border-gray-600 " />
+                        <a href="#webflux"><Image src="/webflux.png" alt="" height={50} width={50} className="p-1 md:p-2 border border-gray-600 rounded-full w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] hover:border-[#0af] hover:lg:w-[55px] hover:lg:h-[55px]" /></a>
                     </div>
                 </div>
 
-                <div id="bite" />
-                <Separator />
 
-                <Experience logo="/bite.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
+
+                <div id="ojailu" />
+                <Separator />
+                <Experience logo="/ojalogo.jpg" title="Fullstack Developer (WordPress)" company="Oja Ilu" date="October 2025 - Present" location="Remote" />
 
                 <div className="py-4 md:pt-8 pl-4  md:px-[10%]">
-                    <p className="text-lg lg:text-xl">At BITe Agency, I played a key role in delivering fast, responsive, and user-friendly web experiences 
-                        for small businesses and growing brands. My work focused on turning design files into functional front-end interfaces using modern 
-                        frameworks such as React.js, Next.js, and Tailwind CSS—ensuring pixel-perfect responsiveness across devices. 
+                    <p className="text-lg lg:text-xl">Oja Ilu is a large-scale merchant listing platform designed to support businesses across multiple categories and serve millions of users nationwide. 
+                        The platform was built on WordPress, with extensive custom PHP development to extend native functionality and support complex merchant and user workflows.<br/><br/>
+                        My contributions included developing custom features for managing merchant listings, categories, and structured business data, implementing role-based access for merchants and administrators, 
+                        and optimizing queries and data handling for performance and scalability. Given the platform&apos;s intended scale, careful attention was paid to system extensibility, database interactions, and maintaining clean separation between presentation and business logic.<br/><br/>
+                        Oja Ilu shares many similarities with e-commerce systems; large searchable catalogs, merchant-facing dashboards, discovery experiences for users, and performance considerations at scale. This experience further deepened my understanding of building merchant-focused platforms 
+                        on top of existing frameworks while maintaining long-term reliability and code quality.
+                    </p><br />
+                </div>
+
+
+                <div id="bite" />
+                <Separator />
+                <Experience logo="/bite.png" title="Lead Fullstack Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
+                <div className="py-4 md:pt-8 pl-4  md:px-[10%]">
+                    <p className="text-lg lg:text-xl">At Bite Agency, I work as a full-stack software engineer delivering multiple production applications and client websites across different industries. The role required balancing speed and quality, building reliable, scalable systems while meeting real business deadlines and evolving requirements.<br/><br/>
+                        One of the major products I contributed to was the Medical Residency Trust Fund (MRTF) Portal, a nationwide platform built for the national body of resident doctors in Nigeria. Developed using a PHP framework, the portal supported complex workflows such as user onboarding, structured data submissions, application processing, administrative reviews, and reporting. 
+                        As a government-facing system with a growing user base, reliability, security, and maintainability were critical. This experience strengthened my approach to database design, API structure, and writing clean, extensible back-end logic that could scale with increased usage.<br/><br/>
+                        In addition to MRTF, I worked on multiple client applications and websites, building custom back-end services, RESTful APIs, and responsive front-end interfaces. These projects often involved transactional workflows, role-based access control, third-party integrations, and performance-sensitive features. 
+                        Working across several codebases improved my ability to quickly understand new domains, translate business requirements into technical solutions, and collaborate closely with designers, product stakeholders, and other engineers. I regularly participated in code reviews, debugging, performance optimization, and iterative feature delivery within Agile workflows.
+                    </p><br />
+                </div>
+
+
+
+
+
+                <div className="py-4 md:pt-8 pl-4  md:px-[10%]">
+                    <p className="text-lg lg:text-xl">At Bite Agency, I work as a full-stack software engineer delivering multiple production applications and client websites across different industries. The role required balancing speed and quality, building reliable, scalable systems while meeting real business deadlines and evolving requirements.<br/><br/>
+                        One of the major products I contributed to was the Medical Residency Trust Fund (MRTF) Portal, a nationwide platform built for the national body of resident doctors in Nigeria. Developed using a PHP framework, the portal supported complex workflows such as user onboarding, structured data submissions, application processing, administrative reviews, and reporting. 
+                        As a government-facing system with a growing user base, reliability, security, and maintainability were critical. This experience strengthened my approach to database design, API structure, and writing clean, extensible back-end logic that could scale with increased usage.<br/><br/>
+                        In addition to MRTF, I worked on multiple client applications and websites, building custom back-end services, RESTful APIs, and responsive front-end interfaces. These projects often involved transactional workflows, role-based access control, third-party integrations, and performance-sensitive features. 
+                        Working across several codebases improved my ability to quickly understand new domains, translate business requirements into technical solutions, and collaborate closely with designers, product stakeholders, and other engineers. I regularly participated in code reviews, debugging, performance optimization, and iterative feature delivery within Agile workflows.
                     </p><br />
 
                     <p className="text-lg lg:text-xl">I built and deployed fully functional static websites using Next.js, integrating Contentful as a headless 
@@ -51,7 +83,7 @@ export default function Home() {
                         structured metadata to boost organic visibility.
                     </p>
                     <br/>
-                    <p className="text-lg lg:text-xl">Performance was never an afterthought—I regularly audited and enhanced website speed and user engagement using tools like Hotjar, 
+                    <p className="text-lg lg:text-xl">Performance was never an afterthought. I regularly audited and enhanced website speed and user engagement using tools like Hotjar, 
                         Microsoft Clarity, and Google PageSpeed Insights. These insights helped us fine-tune load times, user journeys, and overall experience to drive better results 
                         for our clients.
                     </p>

@@ -22,9 +22,9 @@ export default function Home() {
                     height="720"
                 />
                 <h1 className='text-lg mt-4 text-gray-400'>I am Sam Olasoji 👋🏻 <br/>
-                    a Frontend Developer.
+                    a Senior Fullstack Developer.
                 </h1>
-                <h2 className="text-30px md:text-[40px] lg:text-3xl uppercas my-4 leading-none lg:my-6">I create <span className='text-[#0af]'>interactive</span> interfaces people love.</h2>
+                <h2 className="text-30px md:text-[40px] lg:text-3xl uppercas my-4 leading-none lg:my-6">I build <span className='text-[#0af]'>fullstack products</span> that scale.</h2>
                 <a href="#about"><button className=" px-6 mt-6 py-3 bg-white text-black rounded-xl hover:bg-gray-200 transition">
                     About Me
                 </button></a>
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="py-20 hidden lg:block" />
 
 
-            <section id="about" className="text-white flex flex-col items-cente border-none lg:w-5/6">
+            <section id="about" className="text-white flex flex-col items-cente border-none lg:w-">
                 <div className="flex gap-2 items-center">
                     <MdOutlineVerifiedUser className='text-xl' />
                     <p className="text-sm lg:text-lg uppercase">About Me</p>
@@ -44,8 +44,8 @@ export default function Home() {
                 <p className='text-25px md:text-30px lg:text-2xl'>Sam Olasoji, <span className="text-gray-400">Your Developer</span> </p>
                 <p className="text-lg">Brief description of my experience and journey.</p>
 
-                <div className="flex flex-col lg:flex-row mt-12  gap-2 lg:gap-4">
-                    <div className="lg:w-2/5 p-2 bg-dark rounded-lg">
+                <div className="flex flex-col lg:flex-row mt-12 items-start gap-2 lg:gap-4">
+                    <div className="lg:w-2/6 p-2 bg-dark rounded-lg">
                         <Image src="/sam.jpeg" alt="Sam Olasoji, frontend developer"
                             height={1680}
                             width={2520}
@@ -53,12 +53,12 @@ export default function Home() {
                         />
                     </div>
 
-                    <div className="lg:w-3/5 p-4 lg:p-8 bg-dark text-white rounded-lg">
-                        <p className="text-lg pb-4 border-b border-gray-500">Frontend developer with a passion for creating interactive and user-friendly interfaces. 
-                            Proficient in modern frontend technologies and frameworks. Worked as part of a team and independently as a freelancer.
+                    <div className="lg:w-4/6 p-4 lg:p-8 bg-dark text-white rounded-lg">
+                        <p className="text-lg pb-4 border-b border-gray-500">Senior fullstack developer with expertise in building responsive, scalable, high-performance applications. 
+                            Proficient in PHP, modern JavaScript frameworks, CMSes, technical SEO, and performance optimization. Writes clean, well-documented code for scalable systems. Passionate about crafting seamless user experiences.
                         </p>
 
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
                             <div className='flex gap-2 bg-[#2f2f2f] rounded-lg items-center p-2'>
                                 <div className="p-2 rounded-lg bg-white">
                                     <Image src="/icons/next.png" height={225} width={225} alt="" className='w-[25px] ' />
@@ -105,6 +105,46 @@ export default function Home() {
                                 
                                 <p className='text-md lg:text-lg'>Github</p>
                             </div>
+
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
+                                <div className="p-2 rounded-lg bg-white">
+                                    <Image src="/icons/php.png" height={189} width={148} alt=""  className='w-[25px] ' />
+                                </div>
+                                
+                                <p className='text-md lg:text-lg'>PHP</p>
+                            </div>
+
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
+                                <div className="p-2 rounded-lg bg-white">
+                                    <Image src="/icons/laravel.png" height={225} width={225} alt=""  className='w-[25px] ' />
+                                </div>
+                                
+                                <p className='text-md lg:text-lg'>Laravel</p>
+                            </div>
+
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
+                                <div className="p-2 rounded-lg bg-white">
+                                    <Image src="/icons/postgresql.webp" height={225} width={225} alt=""  className='w-[25px] ' />
+                                </div>
+                                
+                                <p className='text-md lg:text-lg'>Postgres Sql</p>
+                            </div>
+
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
+                                <div className="p-2 rounded-lg bg-white">
+                                    <Image src="/icons/mysql.webp" height={225} width={225} alt=""  className='w-[25px] ' />
+                                </div>
+                                
+                                <p className='text-md lg:text-lg'>mySql</p>
+                            </div>
+
+                            <div className='flex gap-2 bg-[#2f2f2f] rounded-lg p-2 items-center'>
+                                <div className="p-2 rounded-lg bg-white">
+                                    <Image src="/icons/azure.jpeg" height={225} width={225} alt=""  className='w-[25px] ' />
+                                </div>
+                                
+                                <p className='text-md lg:text-lg'>Azure</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,9 +161,11 @@ export default function Home() {
                 <h3 className="text-30px lg:text-2xl">My Selected Works</h3>
 
                 <div className="grid lg:grid-cols-2 gap-4 mt-8">
+                    <Project name="Medical Residency Trust Fund (MRTF) Portal" desc="A portal for the national body of resident doctors in Nigeria for managing and tracking their learning during their residency period" url="/projects/mrtf" src="/mrtf.png" />
+                    <Project name="Oja Ilu" desc="A multivendor listing platform with a web and mobile app" url="/projects/oja-ilu" src="/ojailu.png" />  
+                    <Project name="Pisonets" desc="An archive of research publications and journals" url="/projects/pisonets" src="/pison.png" />
                     <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="/projects/theleadman" src="/mockup.jpeg" />
                     <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="/projects/brilliant-light-realty" src="/mockup2.jpeg" />
-                    <Project name="Portfolio" desc="A portfolio website" url="/projects/portfolio-website" src="/mockup3.jpeg" />
                     <Project name="Benison" desc="Home health web app with analytics dashboard" url="/projects/benison-web-app" src="/mockup4.png" />
                 </div>
 
@@ -137,11 +179,11 @@ export default function Home() {
                     <MdOutlineCode className='text-xl'/>
                     <p className="text-sm lg:text-lg uppercase">through the stars</p>
                 </div>
-                <h3 className="lg:text-2xl text-30px">My Development Journey</h3>
+                <h3 className="lg:text-2xl text-30px">My Fullstack Development Journey</h3>
 
                 <Separator />
-
-                <Experience logo="/bite.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
+                <Experience logo="/ojalogo.jpg" title="Fullstack Developer" company="Oja Ilu" date="October 2025 - Present" location="Remote" />
+                <Experience logo="/bite.png" title="Lead Fullstack Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
                 <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
                 <Experience logo="/webfluxx.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />

@@ -8,7 +8,7 @@ import Menu from './ui/mainMenu';
 
 
 export const metadata: Metadata = {
-  title: "Sam Olasoji — Frontend Developer",
+  title: "Sam Olasoji — Senior Fullstack Developer",
   description: "I create interactive interfaces people love.",
   keywords: [
     "website design",
@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     "website optimization",
     "website maintenance",
     "website hosting",
+    "fullstack developer",
+    "frontend developer",
+    "backend developer",
+    "senior fullstack developer",
   ],
 };
 

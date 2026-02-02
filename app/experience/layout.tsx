@@ -4,8 +4,8 @@ import Footer from '../ui/footer';
 
 
 export const metadata: Metadata = {
-  title: "Sam Olasoji | My frontend development journey",
-  description: "Frontend developer creating interactive interfaces",
+  title: "Sam Olasoji | My fullstack development journey",
+  description: "Fullstack development journey of Sam Olasoji, a senior fullstack developer specializing in building scalable web applications and interactive user interfaces.",
 };
 
 export default function RootLayout({
