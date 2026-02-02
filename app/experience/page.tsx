@@ -34,7 +34,7 @@ export default function Home() {
 
 
 
-                <div id="ojailu" />
+                <div id="ojailu" className='pb-[0%] md:pb-[20%] lg:pb-[10%]'/>
                 <Separator />
                 <Experience logo="/ojalogo.jpg" title="Fullstack Developer (WordPress)" company="Oja Ilu" date="October 2025 - Present" location="Remote" />
 
@@ -49,7 +49,7 @@ export default function Home() {
                 </div>
 
 
-                <div id="bite" />
+                <div id="bite" className='pb-[50%] md:pb-[20%] lg:pb-[10%]'/>
                 <Separator />
                 <Experience logo="/bite.png" title="Lead Fullstack Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
                 <div className="py-4 md:pt-8 pl-4  md:px-[10%]">
@@ -88,7 +88,7 @@ export default function Home() {
                         for our clients.
                     </p>
                 </div>
-                <div id="padding" className='pb-[40%] md:pb-[20%] lg:pb-[10%]' />
+                <div id="padding" className='pb-[50%] md:pb-[20%] lg:pb-[10%]' />
                 <Separator  />
 
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
@@ -125,7 +125,7 @@ export default function Home() {
                     </p>
                    
                 </div>
-                <div id="webflux" className='pb-[40%] md:pb-[20%] lg:pb-[10%]' />
+                <div id="webflux" className='pb-[50%] md:pb-[20%] lg:pb-[10%]' />
                 <Separator />
 
                 <Experience logo="/webfluxx.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />

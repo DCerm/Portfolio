@@ -19,9 +19,9 @@ export default function Home() {
                 <h3 className="text-30px lg:text-2xl">My Selected Works</h3>
 
                 <div className="grid lg:grid-cols-2 gap-4 mt-8">
-                    <Project name="Medical Residency Trust Fund (MRTF) Portal" desc="A portal for the national body of resident doctors in Nigeria for managing and tracking their learning during their residency period" url="/projects/mrtf" src="/mrtf.png" />
-                    <Project name="Oja Ilu" desc="A multivendor listing platform with a web and mobile app" url="/projects/oja-ilu" src="/ojailu.png" />  
-                    <Project name="Pisonets" desc="An archive of research publications and journals" url="/projects/pisonets" src="/pison.png" />
+                    <Project name="Medical Residency Trust Fund (MRTF) Portal" desc="A portal for the national body of resident doctors in Nigeria for managing and tracking their learning during their residency period" url="https://mrtf.npmcn.edu.ng" src="/mrtf.png" />
+                    <Project name="Oja Ilu" desc="A multivendor listing platform with a web and mobile app" url="https://ojailu.com" src="/ojailu.png" />  
+                    <Project name="Pisonets" desc="An archive of research publications and journals" url="https://pisonets.com" src="/pison.png" />
                     <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="/projects/theleadman" src="/mockup.jpeg" />
                     <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="/projects/brilliant-light-realty" src="/mockup2.jpeg" />
                     <Project name="Portfolio" desc="A portfolio website" url="/projects/portfolio-website" src="/mockup3.jpeg" />
