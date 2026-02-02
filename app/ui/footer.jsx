@@ -1,6 +1,4 @@
 import Link from 'next/link';
-//import Image from 'next/image';
-//import { FooterForm } from "./forms";
 import { FaEnvelope } from 'react-icons/fa';
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { MdOutlineArrowOutward } from 'react-icons/md';
@@ -9,15 +7,6 @@ import { Separator } from './modules';
 
 function Footer() {
     
-    function FooterLink({url, text}) {
-        return (
-            <>
-            <Link href={url} className='target:underline target:decoration-double hover:underline decoration-wavy underline-offset-8 decoration-gold' > 
-                <p className="text-lg lg:text-xl font-semibold"> {text} </p> 
-            </Link>
-            </>
-        )
-    }
 
     return (
         <>
