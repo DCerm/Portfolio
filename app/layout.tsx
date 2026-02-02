@@ -4,6 +4,7 @@ import Stars from './ui/stars';
 import "./globals.css";
 import Script from 'next/script';
 import Menu from './ui/mainMenu';
+import Footer from './ui/footer';
 //import Gtag from './utils/gtag';
 
 
@@ -50,6 +51,8 @@ export default function RootLayout({
 
             <Menu />
             {children}
+
+            <Footer />
 
         </body>
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-PS2ELQH4RT" />

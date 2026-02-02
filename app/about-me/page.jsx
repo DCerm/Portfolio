@@ -18,8 +18,8 @@ export default function Home() {
                         <h3 className="text-30px lg:text-2xl">About Me</h3>
 
                         <div className=" mb-8">
-                            <p className="text-lg mt-4">Frontend developer with a passion for crafting interactive, user-centric interfaces. </p>
-                            <p className='text-lg mt-4'>I began my journey in 2020 with HTML, CSS, and JavaScript, later exploring WordPress to quickly bring ideas to life. But I craved more creative freedom and performance—so I dove deeper, landed a frontend internship, and never looked back. </p>
+                            <p className="text-lg mt-4">Fullstack developer specializing in building scalable web applications and interactive user interfaces. </p>
+                            <p className='text-lg mt-4'>I began my journey in 2020 with HTML, CSS, and JavaScript, later exploring WordPress to quickly bring ideas to life. But I craved more creative freedom and performance, so I dove deeper, landed a frontend internship, and never looked back. </p>
                             <p className="text-md lg:text-lg mt-4">Today, I focus on building seamless, engaging experiences that capture user attention and connect it to real business value.</p>
                         </div>
 
@@ -34,6 +34,14 @@ export default function Home() {
                             <p className='text-md'>Tailwind CSS</p>
                             <p className='text-lg'>/</p>
                             <p className='text-md'>Github</p>
+                            <p className='text-xl'>/</p>
+                            <p className='text-md'>PHP</p>
+                            <p className='text-xl'>/</p>
+                            <p className='text-md'>Postgres Sql</p>
+                            <p className='text-xl'>/</p>
+                            <p className='text-md'>Laravel</p>
+                            <p className='text-lg'>/</p>
+                            <p className='text-md'>MySql</p>
 
                         </div>
 
@@ -45,10 +53,10 @@ export default function Home() {
                                 width={836}
                                 height={720}
                                 alt=""
-                                className='w-full h-auto'
+                                className='w-full h-auto hidden'
                             />
                             <div className="border-t p-2 bg-[#10294b]">
-                                <a href="/frontend_resume.pdf" locale={false} target="_blank">
+                                <a href="/FullStackPHPResume.pdf" locale={false} target="_blank">
                                     <p className='text-gray-200 flex gap-1 hover:gap-3 justify-center transition-ease text-lg hover:text-white'>Download Resume <MdOutlineDownload className='mt-1.5' /></p>
                                 </a>
                             </div>
@@ -68,11 +76,12 @@ export default function Home() {
 
                 <Separator />
 
-                <Experience logo="/bite.png" title="Frontend Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
+                <Experience logo="/ojalogo.jpg" title="Fullstack Developer (WordPress)" company="Oja Ilu" date="October 2025 - Present" location="Remote" />
+                <Experience logo="/bite.png" title="Lead Fullstack Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
                 <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />
                 <Experience logo="/webfluxx.png" title="Website Developer" company="WebFlux" date="January 2021 - November 2021" location="Ife, Nigeria" />
-
+                                    
                 <div className="py-2 lg:py-4" />
 
                 <Button url="/experience" text="View Experience Details" />

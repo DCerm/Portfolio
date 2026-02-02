@@ -5,7 +5,7 @@ import Footer from '../ui/footer';
 
 export const metadata: Metadata = {
   title: "Sam Olasoji | About Me",
-  description: "Frontend developer creating interactive interfaces",
+  description: "Fullstack developer specializing in building scalable web applications and interactive user interfaces.",
 };
 
 export default function RootLayout({
@@ -14,13 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className=' text-white antialiased'>
-
+    <div className="text-white">       
         {children}
 
-        <Footer />
-      </body>
-    </html>
+    </div>
   );
 }

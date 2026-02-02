@@ -162,11 +162,11 @@ export default function Home() {
 
                 <div className="grid lg:grid-cols-2 gap-4 mt-8">
                     <Project name="Medical Residency Trust Fund (MRTF) Portal" desc="A portal for the national body of resident doctors in Nigeria for managing and tracking their learning during their residency period" url="/projects/mrtf" src="/mrtf.png" />
+                    <Project name="Benison" desc="Home health web app with analytics dashboard" url="/projects/benison-web-app" src="/mockup4.png" />
                     <Project name="Oja Ilu" desc="A multivendor listing platform with a web and mobile app" url="/projects/oja-ilu" src="/ojailu.png" />  
-                    <Project name="Pisonets" desc="An archive of research publications and journals" url="/projects/pisonets" src="/pison.png" />
                     <Project name="TheLeadman Africa" desc="A leadership training site for legislators and entrepreneurs" url="/projects/theleadman" src="/mockup.jpeg" />
                     <Project name="Brilliant Light Realty" desc="Real estate web app with dynamic content" url="/projects/brilliant-light-realty" src="/mockup2.jpeg" />
-                    <Project name="Benison" desc="Home health web app with analytics dashboard" url="/projects/benison-web-app" src="/mockup4.png" />
+                    <Project name="Pisonets" desc="An archive of research publications and journals" url="/projects/pisonets" src="/pison.png" />
                 </div>
 
                
@@ -182,7 +182,7 @@ export default function Home() {
                 <h3 className="lg:text-2xl text-30px">My Fullstack Development Journey</h3>
 
                 <Separator />
-                <Experience logo="/ojalogo.jpg" title="Fullstack Developer" company="Oja Ilu" date="October 2025 - Present" location="Remote" />
+                <Experience logo="/ojalogo.jpg" title="Fullstack Developer (WordPress)" company="Oja Ilu" date="October 2025 - Present" location="Remote" />
                 <Experience logo="/bite.png" title="Lead Fullstack Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
                 <Experience logo="/padding.png" title="Frontend Developer" company="Padding Technologies" date="January 2024 - July 2024" location="Remote" />
                 <Experience logo="/justnovate.png" title="Project Lead Developer" company="Just Novate (Contract)" date="November 2022 - May 2023" location="Ajah, Lagos" />

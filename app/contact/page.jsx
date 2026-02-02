@@ -41,7 +41,7 @@ export default function Contact() {
             <section className="pt-0 bg-planetfade">
                 <div className='lg:flex lg:gap-12 justify-between items-center border border-gray-500 p-4 lg:p-12 rounded-xl bg-o'>
                     <div className='lg:w-3/6 gap-5 flex flex-col '>
-                        <p className="text-xl lg:text-[25px]">A frontend people love is achieved with dedication; coding even the minutest details with finesse.</p>
+                        <p className="text-xl lg:text-[25px]">A fullstack app people love is achieved with dedication; coding even the minutest details with finesse.</p>
                         <p className={` ${hand.className} text-xl lg:text text-[#0af] `}> — Sam Olasoji</p>
 
                         <div className="border border-gray-700 hover:border-gray-500 hover:shadow-sm hover:shadow-gray-500 text-gray-400 hover:text-white rounded-lg p-4 lg:p-8 flex flex-col justify-between mt-4 ">

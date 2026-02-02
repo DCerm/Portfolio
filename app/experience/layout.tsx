@@ -14,15 +14,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">        
-      <body
-        className='bg-dark text-white antialiased'
-      >
-
+    <div className="text-white">       
         {children}
 
-        <Footer />
-      </body>
-    </html>
+    </div>
   );
 }
