@@ -10,7 +10,7 @@ import Footer from './ui/footer';
 
 export const metadata: Metadata = {
   title: "Sam Olasoji — Senior Fullstack Developer",
-  description: "I create interactive interfaces people love.",
+  description: "Fullstack developer specializing in building scalable web applications and interactive user interfaces.",
   keywords: [
     "website design",
     "web development",
