@@ -1,9 +1,5 @@
-//import Link from 'next/link';
 import Image from 'next/image';
-//import Menu from './ui/mainMenu';
-import Footer from './ui/footer';
 import { Button } from './ui/buttons';
-//import { H1, H2, H4 } from './ui/headings';
 import { Separator, Experience, Testimony, Project } from './ui/modules';
 import { MdOutlineChatBubble, MdOutlineCode,  MdOutlineLaptopMac, MdOutlineVerifiedUser } from 'react-icons/md';
 
@@ -229,11 +225,6 @@ export default function Home() {
                 
 
             </section>
-
-
-            {/* FOOTER          FOOTER          FOOTER         FOOTER        FOOTER*/}
-
-            <Footer />
         </>
     )
 }
