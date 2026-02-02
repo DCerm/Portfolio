@@ -26,7 +26,7 @@ export default function Home() {
                         <Button url="mailto:osolasoji@gmail.com" text="osolasoji@gmail.com" />
                         <h4 className='font-semibold text-xl mt-10 text-white'>My Development Essentials</h4>
 
-                        <div className="flex font-normal gap-2 lg:gap-4 items-center mt-1 lg:mt-4">
+                        <div className="grid grid-cols-[min-content_auto_auto_auto_auto_auto]  fit-content lg:flex font-normal gap-2 lg:gap-4 items-center mt-1 lg:mt-4">
                             <p className='text-md'>Next.js</p>
                             <p className='text-xl'>/</p>
                             <p className='text-md'>React.js</p>

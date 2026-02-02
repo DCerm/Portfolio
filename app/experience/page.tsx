@@ -52,19 +52,7 @@ export default function Home() {
                 <div id="bite" className='pb-[50%] md:pb-[20%] lg:pb-[10%]'/>
                 <Separator />
                 <Experience logo="/bite.png" title="Lead Fullstack Developer" company="BITe Agency" date="February 2024 - Present" location="Remote" />
-                <div className="py-4 md:pt-8 pl-4  md:px-[10%]">
-                    <p className="text-lg lg:text-xl">At Bite Agency, I work as a full-stack software engineer delivering multiple production applications and client websites across different industries. The role required balancing speed and quality, building reliable, scalable systems while meeting real business deadlines and evolving requirements.<br/><br/>
-                        One of the major products I contributed to was the Medical Residency Trust Fund (MRTF) Portal, a nationwide platform built for the national body of resident doctors in Nigeria. Developed using a PHP framework, the portal supported complex workflows such as user onboarding, structured data submissions, application processing, administrative reviews, and reporting. 
-                        As a government-facing system with a growing user base, reliability, security, and maintainability were critical. This experience strengthened my approach to database design, API structure, and writing clean, extensible back-end logic that could scale with increased usage.<br/><br/>
-                        In addition to MRTF, I worked on multiple client applications and websites, building custom back-end services, RESTful APIs, and responsive front-end interfaces. These projects often involved transactional workflows, role-based access control, third-party integrations, and performance-sensitive features. 
-                        Working across several codebases improved my ability to quickly understand new domains, translate business requirements into technical solutions, and collaborate closely with designers, product stakeholders, and other engineers. I regularly participated in code reviews, debugging, performance optimization, and iterative feature delivery within Agile workflows.
-                    </p><br />
-                </div>
-
-
-
-
-
+            
                 <div className="py-4 md:pt-8 pl-4  md:px-[10%]">
                     <p className="text-lg lg:text-xl">At Bite Agency, I work as a full-stack software engineer delivering multiple production applications and client websites across different industries. The role required balancing speed and quality, building reliable, scalable systems while meeting real business deadlines and evolving requirements.<br/><br/>
                         One of the major products I contributed to was the Medical Residency Trust Fund (MRTF) Portal, a nationwide platform built for the national body of resident doctors in Nigeria. Developed using a PHP framework, the portal supported complex workflows such as user onboarding, structured data submissions, application processing, administrative reviews, and reporting. 
